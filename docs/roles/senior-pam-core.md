@@ -76,6 +76,9 @@ You'll own the reliability and performance of our core AI voice platform, ensuri
 ### Must Have
 - 5+ years software engineering experience
 - At least 1 year working on production LLM systems
+- Strong TypeScript — our entire stack is TypeScript
+- AWS experience (we run on AWS)
+- Uses AI to code (Claude Code, Cursor, Copilot, etc.) — this is how we work
 - Knows how to improve a live system without breaking it
 - Track record of improving system reliability incrementally
 - Experience with observability tools (Datadog, Grafana, etc.)

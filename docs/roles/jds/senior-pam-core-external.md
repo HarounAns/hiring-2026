@@ -20,6 +20,8 @@ If you get energy from making AI systems reliable at scale—not just shipping d
 ## You Might Be a Good Fit If You
 
 - Have 5+ years of software engineering experience, with at least 1 year working on production LLM systems
+- Are strong in TypeScript (our entire stack) and AWS
+- Use AI to code — Claude Code, Cursor, Copilot, or equivalent. This is how we work.
 - Know how to improve a live system without breaking it
 - Have opinions on how to make LLMs reliable, not just how to use them
 - Think in terms of measuring and improving, not just shipping and hoping

@@ -5,7 +5,7 @@
     "stats": {
       "current": 27,
       "engineering": 16,
-      "proposed": 6
+      "proposed": 7
     }
   },
   "team": {
@@ -62,6 +62,7 @@
               { "name": "TBD", "role": "Junior Support Engineer", "department": "eng", "team": "Core Support", "proposed": true }
             ]
           },
+          { "name": "TBD", "role": "Senior Operations Engineer", "department": "eng", "team": "OPS Automation", "proposed": true },
           {
             "name": "Laith",
             "role": "Forward Deployed Engineer",

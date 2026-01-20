@@ -25,16 +25,16 @@ Let's work backwards from problems → hires, not hires → hope.
 | Hire | Solves Which Problem? | Confidence |
 |------|----------------------|------------|
 | Senior Pam Core | #2 (stability/LLM) | ✅ High - if focused on stability |
-| Pam Core Support x2 | #1 (onboarding) partially, #3 (monitoring) | 🟡 Medium - juniors are slow to ramp |
-| Integration Support | ? | ❓ Unclear - what problem? |
+| Senior Operations Engineer | #1 (onboarding), #3 (monitoring) | ✅ High - automation + observability |
+| PAM Core Support x2 | #1, #2 (Tier 2 for LLM issues) | ✅ High - ships PRs, enables OPS |
+| Integration Support | #1 (integrations are main onboarding blocker) | ✅ High - ships PRs, enables OPS |
+| Senior Sales Outbound | New revenue line (customer demand exists) | ✅ High - 0→1 product ownership |
 | Mid Dashboard | ? | ❓ Unclear - is dashboard blocking growth? |
 | Mobile | ? | ❓ Unclear - is mobile a priority? |
-| Senior Sales (New Product) | #5 | ❌ Low - product undefined |
 
 ### Gaps in Current Plan
 - **No Outbound hire** - Problem #4 unaddressed
-- **No Observability focus** - Problem #3 partially addressed by support hires
-- **3 hires with unclear problem mapping** (Integration, Dashboard, Mobile)
+- **2 hires with unclear problem mapping** (Dashboard, Mobile)
 
 ---
 
@@ -53,78 +53,146 @@ Let's work backwards from problems → hires, not hires → hope.
 
 **Interview Focus:** LLM/AI systems experience, reliability engineering, incident response
 
+**Status:** ✅ JD complete, interview guide complete, candidate (Yousof) identified
+
 ---
 
-#### 2. Pam Core Support x2 (Juniors)
+#### 2. Senior Operations Engineer (AI-Powered Support Automation)
 **Problem Solved:** #1 - Onboarding bottleneck, #3 - Customer health visibility
+
+This role builds AI-powered automation for the support process:
+- Turn emails into tickets automatically (observability)
+- Build AI Tier 0 (auto-resolution of simple issues)
+- Create AI-enabled runbooks for OPS
+- Smart triage and escalation routing
+- Funnel metrics and optimization
 
 | Timeframe | Success Criteria |
 |-----------|------------------|
-| **3 months** | Ramped on product. Handling tier-1 support independently. Onboarding time reduced 20%. |
-| **6 months** | Built dashboards for key customer health metrics. Proactive alerting in place. |
-| **1 year** | Onboarding is self-serve for 50% of customers. Support ticket volume down 30%. |
+| **1 month** | Email → ticket pipeline working. Basic funnel dashboard exists. |
+| **3 months** | 90%+ emails become tickets. AI handling 10%+ requests. |
+| **6 months** | AI handling 25%+ requests (Tier 0). 30% faster resolution. |
+| **1 year** | AI handling 40%+ requests. 2x customers, same support headcount. |
 
-**Interview Focus:** Customer empathy, debugging skills, communication, ability to learn fast
+**Interview Focus:** Automation/pipeline experience, AI/LLM integration, data-driven mindset, TypeScript/AWS
 
-**Risk:** Juniors take 3-6 months to ramp. Consider 1 mid-level instead of 2 juniors for faster impact.
-
----
-
-#### 3. Integration Support (Junior)
-**Problem Solved:** ❓ NEEDS CLARIFICATION
-
-**Questions for Samee:**
-- What problem does this solve?
-- Are integrations blocking customer onboarding?
-- Is this a support role or an engineering role?
-
-| If integrations are blocking onboarding... | Success Criteria |
-|-------------------------------------------|------------------|
-| **3 months** | Top 5 integration issues documented and resolved. |
-| **6 months** | Integration success rate > 95%. Self-serve integration docs. |
-| **1 year** | Integrations are not a blocker for any deal. |
+**Status:** ✅ JD complete (internal + external)
 
 ---
 
-### BELOW THE FOLD (Unclear problem mapping)
+#### 3. PAM Core Support Engineer (x2)
+**Problem Solved:** #1 - Onboarding bottleneck, #2 - LLM quality issues (Tier 2 support)
 
-#### 4. Mid-Level Dashboard Engineer
-**Problem Solved:** ❓ NEEDS CLARIFICATION
+Support engineers focused on LLM behavior and conversation quality. They debug why Pam said the wrong thing, ship PRs to fix it, improve prompts, and build runbooks so OPS can handle more without escalating.
 
-**Questions for Samee:**
-- Is the dashboard causing churn or blocking deals?
-- What would this person build in Q1?
-- Is this about the eval experience (Problem #2)?
+**Key mindset:** Protect their time — every repeat escalation is a failure.
 
-| If dashboard is part of bad eval experience... | Success Criteria |
-|-----------------------------------------------|------------------|
-| **3 months** | Shipped 3 high-impact UX improvements based on customer feedback. |
-| **6 months** | Dashboard NPS improved. Time-to-value metrics visible to customers. |
-| **1 year** | Dashboard is a selling point, not a detractor. |
+| Timeframe | Success Criteria |
+|-----------|------------------|
+| **1 month** | Handling escalations with supervision. First PR shipped. First runbook created. |
+| **3 months** | Handling Tier 2 independently. 10+ fixes shipped. 20% fewer escalations to Tier 3. |
+| **6 months** | 80%+ resolved without Tier 3. OPS handling issues they used to escalate. |
+| **1 year** | 2x customers, same Tier 2 headcount. All common issues have runbooks. |
 
----
+**Interview Focus:** Debugging skills, TypeScript/AWS, customer communication, prompt engineering aptitude, pushback ability
 
-#### 5. Mid-Level Mobile Engineer
-**Problem Solved:** ❓ NEEDS CLARIFICATION
-
-**Questions for Samee:**
-- Is mobile driving revenue or strategic priority?
-- What's the Q1 mobile roadmap?
-- Why now vs Q2?
+**Status:** ✅ JD complete (internal + external)
 
 ---
 
-#### 6. Senior Sales Engineer (New Product)
-**Problem Solved:** #5 - New products undefined
+#### 4. Integration Support Engineer
+**Problem Solved:** #1 - Onboarding bottleneck (integrations are the main stopper)
 
-**Recommendation:** HOLD until product is defined
+Support engineer focused on DMS integrations (Tekion, CDK, XTime, MyKaarma). They debug API failures, fix data sync issues, ship PRs, and build runbooks so OPS can handle more without escalating.
 
-**Questions for Samee:**
-- What is the Sales product? Outbound for sales teams? CRM integration?
-- Do we have a spec, even rough?
-- Can we wait until Q2 when there's clarity?
+**Key difference from PAM Core:** No prompt engineering. This is API/webhook debugging.
 
-**Risk:** Hiring senior talent for undefined product leads to churn or misalignment.
+| Timeframe | Success Criteria |
+|-----------|------------------|
+| **1 month** | Understands top 5 integrations. First PR shipped. First runbook created. |
+| **3 months** | Handling Tier 2 independently. 10+ fixes shipped. Integration success rate improved. |
+| **6 months** | 80%+ resolved without Omer's team. Integration reliability measurably improved. |
+| **1 year** | Integration success rate > 95%. Integrations not a blocker for deals. |
+
+**Interview Focus:** API debugging, TypeScript/AWS, customer communication, integration experience, pushback ability
+
+**Status:** ✅ JD complete (internal + external)
+
+---
+
+#### 5. Senior Dashboard Engineer
+**Problem Solved:** Agustin is overloaded. Customer demand for dashboard enhancements exceeds capacity.
+
+Full-stack engineer focused on Pam's customer-facing dashboard. Builds features like takeover texting, conversation management, analytics — touches Pam Core systems but doesn't change LLM behavior.
+
+**What they do:**
+- Ship dashboard features (conversations, analytics, settings)
+- Full-stack: React/Next.js frontend, TypeScript APIs, AWS
+- Work across teams when features touch backend systems
+- Ship fast — code in production Day 1
+
+| Timeframe | Success Criteria |
+|-----------|------------------|
+| **1 month** | Code in production Day 1, multiple PRs merged Week 1, understands architecture |
+| **3 months** | Shipping features independently, Agustin's load reduced, 3+ customer features shipped |
+| **6 months** | Owning major initiatives, dashboard quality improved, features helping close deals |
+| **1 year** | 2x feature velocity, dashboard is competitive advantage, may be mentoring junior engineers |
+
+**Interview Focus:** TypeScript/React/Next.js, full-stack capability, shipping speed, UX sensibility
+
+**Status:** ✅ JD complete (internal + external)
+
+---
+
+#### 6. Senior Sales Outbound Engineer
+**Problem Solved:** New revenue line — existing Service Outbound customers want Sales
+
+Take over Pam Outbound Sales MVP from Haroun and own it end-to-end. 0→1 product engineering role.
+
+**What they inherit:** Working MVP, reasonable codebase, scrappy docs, clear PRD
+
+**What they do:**
+- Productionize: reliability, observability, scalability, maintainability
+- Own the Sales ontology (leads, appointments, handoffs) within Outbound Orchestration
+- Prompt engineering for sales conversations
+- Full-stack: dashboard, analytics, CRM integrations, multi-channel (SMS → email → phone)
+
+| Timeframe | Success Criteria |
+|-----------|------------------|
+| **1 month** | Understands codebase, shipping fixes independently, can explain the ontology |
+| **3 months** | Owns product day-to-day (Haroun not involved), Phase 2 (email) in progress |
+| **6 months** | 10+ customers live, outbound phone calling launched, closed-loop reporting working |
+| **1 year** | Sales Outbound is meaningful revenue line, 50+ customers |
+
+**Interview Focus:** TypeScript/AWS, prompt engineering, data modeling (ERDs), full-stack, 0→1 experience, ownership mentality
+
+**Status:** ✅ JD complete (internal + external)
+
+---
+
+#### 7. Mid-Level Mobile Engineer
+**Problem Solved:** Uplevel existing mobile app built by junior engineer. App works but needs polish and professionalization.
+
+Mobile engineer to improve existing app (built with Rork by junior), establish best practices, and mentor the junior engineer.
+
+**Current state:** Working app in store, skinny layer on Pam Core backend, functional but needs UX polish
+
+**What they do:**
+- Uplevel app quality and UX
+- Establish mobile best practices (CI/CD, testing)
+- Mentor junior engineer who built it
+- Ship improvements Day 1 — NOT rewrite
+
+| Timeframe | Success Criteria |
+|-----------|------------------|
+| **1 month** | Code in production Day 1, 3+ visible improvements, assessment doc written |
+| **3 months** | Noticeably improved UX, CI/CD in place, junior shipping better code |
+| **6 months** | Improved app store ratings, solid architecture, junior independent |
+| **1 year** | Competitive quality app, foundation for future mobile initiatives |
+
+**Interview Focus:** React Native, uplevel-vs-rewrite mindset (critical), mentorship, shipping speed
+
+**Status:** ✅ JD complete (internal + external)
 
 ---
 
@@ -158,16 +226,15 @@ Let's work backwards from problems → hires, not hires → hope.
 
 ## Summary: Hire Confidence Matrix
 
-| Hire | Problem | Confidence | Action |
+| Hire | Problem | Confidence | Status |
 |------|---------|------------|--------|
-| Senior Pam Core | Stability/LLM | ✅ High | Proceed |
-| Core Support x2 | Onboarding/Monitoring | 🟡 Medium | Proceed (consider 1 mid vs 2 junior) |
-| Integration Support | ❓ | ❓ Low | Clarify with Samee |
-| Mid Dashboard | ❓ | ❓ Low | Clarify with Samee |
-| Mid Mobile | ❓ | ❓ Low | Clarify with Samee |
-| Senior Sales | New product | ❌ Low | Hold until product defined |
-| **Outbound Engineer** | Scale | ✅ High | **ADD** |
-| **Onboarding Specialist** | Throughput | ✅ High | **ADD (OPS)** |
+| Senior Pam Core | Stability/LLM | ✅ High | ✅ JD + Interview ready |
+| Senior Operations Engineer | Observability/Automation | ✅ High | ✅ JD ready |
+| PAM Core Support x2 | LLM issues (Tier 2) | ✅ High | ✅ JD ready |
+| Integration Support | Integrations (Tier 2) | ✅ High | ✅ JD ready |
+| Senior Sales Outbound | New revenue (0→1 product) | ✅ High | ✅ JD ready |
+| Senior Dashboard | Capacity (Agustin overloaded) | ✅ High | ✅ JD ready |
+| Mid Mobile | Uplevel existing app | ✅ High | ✅ JD ready |
 
 ---
 
@@ -192,10 +259,10 @@ Let's work backwards from problems → hires, not hires → hope.
 
 ## Open Questions for Samee
 
-1. **Integration hire** - What problem does this solve? Are integrations blocking onboarding?
-2. **Dashboard hire** - Is dashboard part of the bad eval experience? What would they build Q1?
-3. **Mobile hire** - What's the mobile priority? Why Q1 vs Q2?
-4. **Sales product** - What is it? Can we hold this hire until it's defined?
+1. ~~**Integration hire** - What problem does this solve? Are integrations blocking onboarding?~~ ✅ Resolved — Shaheer is bottleneck, integrations block onboarding
+2. ~~**Dashboard hire** - Is dashboard part of the bad eval experience? What would they build Q1?~~ ✅ Resolved — Agustin overloaded, customer demand for enhancements
+3. ~~**Mobile hire** - What's the mobile priority? Why Q1 vs Q2?~~ ✅ Resolved — Uplevel existing app built by junior with Rork
+4. ~~**Sales product** - What is it? Can we hold this hire until it's defined?~~ ✅ Resolved — Pam Outbound Sales, MVP exists, customer demand
 5. **Outbound** - Why no hire when we expect scale issues in 3-6 months?
 6. **OPS** - Should Waqar get an onboarding specialist to unblock the 30-40/month?
 
