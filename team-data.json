@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Pam AI Team Structure",
+    "date": "January 2026",
+    "stats": {
+      "current": 27,
+      "engineering": 16,
+      "proposed": 6
+    }
+  },
+  "team": {
+    "name": "Samee",
+    "role": "CEO / VP of Product / VP of Operations",
+    "department": "exec",
+    "children": [
+      {
+        "name": "Haroun",
+        "role": "CTO / VP of Engineering",
+        "department": "eng",
+        "children": [
+          {
+            "name": "Omer",
+            "role": "Head of Integrations",
+            "department": "eng",
+            "team": "Integrations",
+            "children": [
+              { "name": "Zain", "role": "Junior Engineer", "department": "eng", "team": "Core" },
+              { "name": "Raiyan", "role": "Junior Engineer", "department": "eng", "team": "Core" },
+              { "name": "Shaheer", "role": "Junior Engineer", "department": "eng", "team": "Integrations" },
+              { "name": "Hassan", "role": "Junior Engineer", "department": "eng", "team": "Mobile" },
+              { "name": "TBD", "role": "Junior Engineer", "department": "eng", "team": "Integrations", "proposed": true }
+            ]
+          },
+          { "name": "Marcelo", "role": "Senior Engineer", "department": "eng", "team": "Dashboard/FDE" },
+          {
+            "name": "Agustin",
+            "role": "Engineer",
+            "department": "eng",
+            "team": "Dashboard",
+            "children": [
+              { "name": "TBD", "role": "Mid Engineer", "department": "eng", "team": "Dashboard", "proposed": true }
+            ]
+          },
+          { "name": "Juzer", "role": "Senior Engineer", "department": "eng", "team": "Platform" },
+          { "name": "Mohammad Meeran", "role": "Engineer", "department": "eng", "team": "Platform" },
+          {
+            "name": "Anujan",
+            "role": "Engineer",
+            "department": "eng",
+            "team": "Core",
+            "children": [
+              { "name": "TBD", "role": "Senior Engineer", "department": "eng", "team": "Core", "proposed": true }
+            ]
+          },
+          {
+            "name": "Maheen",
+            "role": "Support Engineer",
+            "department": "eng",
+            "team": "Core",
+            "children": [
+              { "name": "TBD", "role": "Junior Support Engineer", "department": "eng", "team": "Core Support", "proposed": true },
+              { "name": "TBD", "role": "Junior Support Engineer", "department": "eng", "team": "Core Support", "proposed": true }
+            ]
+          },
+          {
+            "name": "Laith",
+            "role": "Forward Deployed Engineer",
+            "department": "eng",
+            "team": "Sales",
+            "children": [
+              { "name": "TBD", "role": "Senior Engineer", "department": "eng", "team": "Sales (New Product)", "proposed": true }
+            ]
+          },
+          { "name": "Uzair", "role": "Engineer", "department": "eng", "team": "Outbound" },
+          { "name": "Mevlut", "role": "Engineer", "department": "eng", "team": "Outbound" },
+          { "name": "Rehan", "role": "OPS/CS Engineer", "department": "eng", "team": "Outbound" }
+        ]
+      },
+      {
+        "name": "Abdullah",
+        "role": "COO / VP of Sales",
+        "department": "sales",
+        "children": [
+          { "name": "Sales Team", "role": "(not in scope)", "department": "sales" }
+        ]
+      },
+      {
+        "name": "Waqar",
+        "role": "Operations Manager",
+        "department": "ops",
+        "children": [
+          { "name": "Amina", "role": "Onshore OPS", "department": "ops" },
+          { "name": "Nour", "role": "Onshore OPS", "department": "ops" },
+          { "name": "Kenza", "role": "Onshore OPS", "department": "ops" },
+          { "name": "Imane", "role": "Onshore OPS (Half)", "department": "ops" },
+          { "name": "Abdelrehman", "role": "Onshore OPS", "department": "ops" },
+          { "name": "Fayzan", "role": "Onshore OPS", "department": "ops" }
+        ]
+      },
+      { "name": "Zach", "role": "Customer Success Manager", "department": "cs" },
+      { "name": "Ashley", "role": "Customer Success Manager", "department": "cs" },
+      { "name": "Kareem", "role": "Product Manager", "department": "pm" }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hiring-2026",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx serve . & sleep 2 && open http://localhost:3000/team-structure.html",
+    "start": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
