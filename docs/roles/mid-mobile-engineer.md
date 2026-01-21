@@ -69,6 +69,11 @@ This is a **mobile engineering** role focused on upleveling Pam's mobile app. Yo
 - Plan roadmap for mobile quality improvements
 - Consider future mobile initiatives (new apps, features)
 
+### 6. Understand the Business
+- Learn who our dealers are and what they need from mobile
+- Build features that matter to the target audience
+- Work with OPS/CS to understand user feedback and pain points
+
 ---
 
 ## Success Criteria

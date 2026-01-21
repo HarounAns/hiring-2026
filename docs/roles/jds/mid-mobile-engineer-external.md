@@ -15,6 +15,7 @@ If you like improving existing products, care about polish and UX, and want to m
 - **Mentor:** Work with the junior engineer who built the app, help them grow
 - **Ship Fast:** Code in production Day 1. Iterative improvements, not big bang releases.
 - **Plan Future:** Assess architecture and recommend improvements for future mobile work
+- **Understand the Business:** Learn who our dealers are and what they need from mobile — build features that matter
 
 ## You Might Be a Good Fit If You
 

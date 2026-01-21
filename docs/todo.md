@@ -11,7 +11,7 @@
 | PAM Core Support (x2) | Waqar + Tier 2/3 engineers | ⏳ Sent, awaiting feedback |
 | Integration Support | Omer + Shaheer | ⏳ Sent, awaiting feedback |
 | Senior Sales Outbound | Uzair + Mevlut | ⏳ Sent, awaiting feedback |
-| Mid Mobile | Hassan | ⏳ Sent, awaiting feedback |
+| Mid Mobile | Hassan | ✅ Done — add "understanding business needs" to JD |
 
 **Ask:** "Can you skim this and tell me if the day-to-day sounds right? 10 min max."
 
@@ -48,6 +48,7 @@
 
 - [ ] Outbound — Why no hire when we expect scale issues in 3-6 months?
 - [ ] OPS — Should Waqar get an onboarding specialist?
+- [ ] Mobile hire location — US only or open to UK? (Hassan suggested UK for expansion, "Marcello/Agustin situation")
 
 ---
 
