@@ -58,8 +58,11 @@
 **Link:** meet.google.com/dzk-yuqf-ogp
 
 - [ ] Dry run the interview (practice the "Solve Our Problem" scenario)
-- [ ] Review interview guide: [interviews/senior-pam-core.md](interviews/senior-pam-core.md)
+- [x] Review interview guide: [interviews/senior-pam-core/README.md](interviews/senior-pam-core/README.md)
 - [ ] Review role context: [roles/senior-pam-core.md](roles/senior-pam-core.md)
+- [ ] Read prep guide: [interviews/senior-pam-core/01-prep-guide.md](interviews/senior-pam-core/01-prep-guide.md)
+- [ ] Print/have open during interview: [interviews/senior-pam-core/02-cheat-sheet.md](interviews/senior-pam-core/02-cheat-sheet.md)
+- [ ] Review Yousof-specific probes: [candidates/senior-pam-core/yousof-algburi.md](candidates/senior-pam-core/yousof-algburi.md)
 
 ---
 
