@@ -30,10 +30,11 @@ This is a **support engineering** role focused on LLM behavior and conversation 
 ## Responsibilities
 
 ### 1. Tier 2 Support for PAM Core Issues
-- Receive escalations from OPS for LLM/conversation issues
+- Receive escalations from OPS for LLM/conversation issues (NOT integration errors — that's Integration Support)
 - Analyze call transcripts to identify where Pam went wrong
 - Determine root cause: model issue, context issue, prompt issue, or config issue
 - Fix the issue — ship PRs for code bugs, update prompts for behavior issues
+- Communicate clearly with OPS team — share troubleshooting steps, teach them how to diagnose issues themselves
 
 ### 2. Prompt Engineering & LLM Debugging
 - Debug why Pam said X when it should have said Y
@@ -53,10 +54,12 @@ This is a **support engineering** role focused on LLM behavior and conversation 
 - Automate repetitive diagnostic steps
 - Contribute to knowledge base used by OPS and Tier 0 AI
 
-### 5. Ship Fixes
+### 5. Ship Fixes (Not Custom Features)
 - Open PRs for bugs you find — don't just escalate to Tier 3
 - Work with Anujan and Senior Pam Core engineer on complex issues
 - Own fixes end-to-end: identify, fix, test, deploy, verify
+- When customers request features: don't build one-offs. Build data/systems to prove what should become a product feature.
+- Build extensible solutions — if it works for one customer, it should work for many
 
 ---
 
@@ -119,6 +122,8 @@ This is a **support engineering** role focused on LLM behavior and conversation 
 - **Pushes back on OPS** — holds the line on escalation criteria
 - **Documents everything** — future self and teammates will thank you
 - **Ships fast** — working fix > perfect fix
+- **Data-driven thinking** — turns recurring requests into data that informs product decisions
+- **Clear communicator** — keeps OPS updated async, shares context so they can help customers effectively
 
 ---
 

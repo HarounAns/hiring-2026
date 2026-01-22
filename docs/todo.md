@@ -8,9 +8,9 @@
 
 | JD | Send to | Status |
 |---|---|---|
-| PAM Core Support (x2) | Waqar + Tier 2/3 engineers | ⏳ Sent, awaiting feedback |
-| Integration Support | Omer + Shaheer | ⏳ Sent, awaiting feedback |
-| Senior Sales Outbound | Uzair + Mevlut | ⏳ Sent, awaiting feedback |
+| PAM Core Support (x2) | Waqar + Tier 2/3 engineers | ✅ Done — clarified scope, added extensibility/communication/data-driven thinking |
+| Integration Support | Omer + Shaheer | ✅ Done — added config diagnostics & integration limitations |
+| Senior Sales Outbound | Uzair + Mevlut | ✅ Done — remove "CTO not involved" language |
 | Mid Mobile | Hassan | ✅ Done — add "understanding business needs" to JD |
 
 **Ask:** "Can you skim this and tell me if the day-to-day sounds right? 10 min max."
@@ -57,12 +57,17 @@
 **Scheduled:** Thursday, January 22 @ 1:00–2:00pm
 **Link:** meet.google.com/dzk-yuqf-ogp
 
+**Prep:**
 - [ ] Dry run the interview (practice the "Solve Our Problem" scenario)
 - [x] Review interview guide: [interviews/senior-pam-core/README.md](interviews/senior-pam-core/README.md)
 - [ ] Review role context: [roles/senior-pam-core.md](roles/senior-pam-core.md)
 - [ ] Read prep guide: [interviews/senior-pam-core/01-prep-guide.md](interviews/senior-pam-core/01-prep-guide.md)
 - [ ] Print/have open during interview: [interviews/senior-pam-core/02-cheat-sheet.md](interviews/senior-pam-core/02-cheat-sheet.md)
 - [ ] Review Yousof-specific probes: [candidates/senior-pam-core/yousof-algburi.md](candidates/senior-pam-core/yousof-algburi.md)
+
+**Technical Setup:**
+- [ ] Add Google Docs skill to Cursor (need to read/write starter templates for interviews)
+- [ ] Add Granola skill to Cursor (for note taking during interview)
 
 ---
 

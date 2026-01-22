@@ -11,6 +11,8 @@ If you like debugging APIs, tracing data flows, and owning problems end-to-end â
 ## What You'll Do
 
 - **Debug Integrations:** Trace API failures, webhook issues, and data sync problems across our DMS integrations
+- **Diagnose Configuration Issues:** Use AWS tools (DynamoDB, S3) to audit settings and identify misconfigurations
+- **Know Integration Limitations:** Distinguish what's custom work vs what's a limitation of a specific DMS (Tekion can do X, but CDK can't)
 - **Ship Fixes:** Open PRs for bugs you find. Don't just diagnose â€” fix it, test it, deploy it
 - **Work with Providers:** Navigate third-party documentation and coordinate on issues (Tekion, CDK, XTime, MyKaarma)
 - **Build Runbooks:** Create documentation and tools so the ops team can handle more issues without escalating to you

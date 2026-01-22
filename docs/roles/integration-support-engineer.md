@@ -35,14 +35,18 @@ This is a **support engineering** role focused on DMS integrations and data sync
 ### 1. Tier 2 Support for Integration Issues
 - Receive escalations from OPS for DMS/scheduler issues
 - Debug API failures — read request/response logs, trace data flow
+- Diagnose configuration issues — audit settings in DynamoDB, review S3 data, identify misconfigurations
+- Distinguish custom work from integration limitations — know what's possible in Tekion vs CDK vs XTime, etc.
 - Work with third-party provider docs (Tekion, CDK, XTime, MyKaarma)
 - Fix the issue — ship PRs for code bugs, update configs, coordinate with providers
 
 ### 2. Integration Debugging & Data Sync
 - Debug why data didn't sync between Pam and the DMS
 - Trace webhook flows and API calls
-- Identify if it's our bug, provider bug, or config issue
+- Use AWS tools (DynamoDB, S3) to investigate configuration and data issues
+- Identify if it's our bug, provider bug, config issue, or limitation of the integration
 - Document patterns: "When you see X error from Tekion, it means Y"
+- Build knowledge of what each integration can and can't do
 
 ### 3. Protect Your Time — Enable OPS
 - Build runbooks for common integration issues so OPS can fix them

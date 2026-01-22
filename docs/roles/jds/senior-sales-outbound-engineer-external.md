@@ -37,7 +37,7 @@ If you want to own a product, not just write code for someone else's vision — 
 - Can explain how the data model works
 
 **Month 3:**
-- Own the product day-to-day (CTO not involved)
+- Full autonomy — move forward without waiting for product direction
 - System is more reliable — fewer customer-reported issues
 - Shipping new features independently
 

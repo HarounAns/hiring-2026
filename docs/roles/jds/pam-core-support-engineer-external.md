@@ -10,11 +10,13 @@ If you want to understand AI systems deeply, ship real fixes, and own problems e
 
 ## What You'll Do
 
-- **Debug LLM Behavior:** Analyze call transcripts to find where Pam went wrong — model issue, context issue, prompt issue, or config issue
+- **Debug LLM Behavior:** Analyze call transcripts to find where Pam went wrong — model issue, context issue, prompt issue, or config issue. (You'll focus on conversation/LLM issues, NOT integration errors.)
 - **Ship Fixes:** Open PRs for bugs you find. Don't just diagnose — fix it, test it, deploy it
 - **Improve Prompts:** Tune prompts to reduce hallucinations, failed intents, and bad responses
 - **Build Runbooks:** Create documentation and tools so the ops team can handle more issues without escalating to you
 - **Protect Your Time:** Push back when issues get escalated that shouldn't. Every repeat escalation is a failure — fix it permanently or build a runbook
+- **Inform Product Decisions:** When customers ask for features, don't build one-offs. Build data and systems to show what should become a real product feature.
+- **Communicate Clearly:** Keep ops updated async, share troubleshooting steps so they learn to handle issues themselves
 
 ## You Might Be a Good Fit If You
 
@@ -26,6 +28,7 @@ If you want to understand AI systems deeply, ship real fixes, and own problems e
 - Write clearly — you'll communicate with customers and build documentation
 - Care about customers but also protect your time — you hate seeing the same issue twice
 - Are curious about LLMs and want to understand how they work (and fail)
+- Think in systems — when you see patterns, you build solutions that scale, not one-off fixes
 
 ## What Success Looks Like
 

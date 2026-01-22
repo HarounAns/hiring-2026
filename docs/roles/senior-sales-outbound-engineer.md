@@ -107,7 +107,7 @@ AI-driven lead engagement that:
 ### Month 3
 | Metric | Target | How to Measure |
 |--------|--------|----------------|
-| Product ownership | Haroun not involved day-to-day | Time tracking |
+| Product ownership | Full autonomy — move forward without waiting for product direction | Time tracking |
 | Reliability | Fewer customer-reported issues | Support tickets |
 | Features | Phase 1 complete, Phase 2 in progress | Roadmap |
 | Observability | Can debug issues without code diving | Dashboard/logs |
