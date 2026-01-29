@@ -11,6 +11,7 @@
 - Maheen has 3-4 day response delays because she's doing feature work
 - No one is systematically improving prompts based on support patterns
 - OPS can't handle LLM issues — they always escalate
+- Customers have unique setups and requests that require engineering effort — unique integration setups, phone system issues, and custom AI instructions
 
 **Why now:**
 - We anticipate significant growth — Maheen can't scale
@@ -54,12 +55,13 @@ This is a **support engineering** role focused on LLM behavior and conversation 
 - Automate repetitive diagnostic steps
 - Contribute to knowledge base used by OPS and Tier 0 AI
 
-### 5. Ship Fixes (Not Custom Features)
+### 5. Ship Fixes (and Eventually Support Core Features)
 - Open PRs for bugs you find — don't just escalate to Tier 3
 - Work with Anujan and Senior Pam Core engineer on complex issues
 - Own fixes end-to-end: identify, fix, test, deploy, verify
 - When customers request features: don't build one-offs. Build data/systems to prove what should become a product feature.
 - Build extensible solutions — if it works for one customer, it should work for many
+- **After 3 months:** Once ramped, support core feature work if needed — this isn't the primary job, but a fully ramped resource should be able to contribute to core features when capacity allows
 
 ---
 

@@ -12,6 +12,7 @@
 - Customers say: "Signed contract 3 weeks ago, still not live"
 - OPS can't debug API failures — they always escalate
 - No systematic improvement of integration reliability
+- Customers have unique setups and requests that require engineering effort — unique integration setups, phone system issues, and custom configurations
 
 **Why now:**
 - Integration delays are the #1 onboarding bottleneck
@@ -60,11 +61,12 @@ This is a **support engineering** role focused on DMS integrations and data sync
 - Automate repetitive diagnostic steps
 - Contribute to knowledge base used by OPS and Tier 0 AI
 
-### 5. Ship Fixes
+### 5. Ship Fixes (and Eventually Support Core Features)
 - Open PRs for integration bugs you find
 - Work with Omer's team on complex integration issues
 - Own fixes end-to-end: identify, fix, test, deploy, verify
 - Improve integration reliability over time
+- **After 3 months:** Once ramped, support core feature work if needed — this isn't the primary job, but a fully ramped resource should be able to contribute to core features when capacity allows
 
 ---
 
