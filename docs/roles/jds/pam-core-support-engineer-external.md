@@ -11,6 +11,7 @@ If you want to understand AI systems deeply, ship real fixes, and own problems e
 ## What You'll Do
 
 - **Debug LLM Behavior:** Analyze call transcripts to find where Pam went wrong — model issue, context issue, prompt issue, or config issue. (You'll focus on conversation/LLM issues, NOT integration errors.)
+- **Handle Custom Setups:** Work with unique customer configurations, phone system issues, and custom AI instructions
 - **Ship Fixes:** Open PRs for bugs you find. Don't just diagnose — fix it, test it, deploy it
 - **Improve Prompts:** Tune prompts to reduce hallucinations, failed intents, and bad responses
 - **Build Runbooks:** Create documentation and tools so the ops team can handle more issues without escalating to you
@@ -47,6 +48,7 @@ If you want to understand AI systems deeply, ship real fixes, and own problems e
 - Resolving 80%+ of escalations without needing senior engineering help
 - Ops team handling issues they used to escalate to you
 - Clear patterns: repeat issues are rare because you fixed them
+- Once fully ramped, opportunity to contribute to core product features
 
 ## Bonus Points
 
