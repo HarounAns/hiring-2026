@@ -16,7 +16,7 @@ See: [jan-2026-state.md](../context/jan-2026-state.md)
 
 | Role | Problem Solved | Rationale |
 |------|---------------|-----------|
-| Senior Pam Core (Stability) | Eval experience, LLM reliability | De-risks raise, improves retention |
+| Senior Pam Core (Stability) | Eval experience, LLM reliability | ✅ **HIRED** — Yousof Algburi (Feb 2026) |
 | Core Support x2 | Onboarding, monitoring | Unblocks growth, customer health visibility |
 
 ### Needs Clarification

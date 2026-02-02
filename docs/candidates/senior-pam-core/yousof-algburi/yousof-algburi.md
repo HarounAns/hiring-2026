@@ -100,10 +100,12 @@ Use these **after** he gives his main answer to the "Solve Our Problem" question
 
 | Stage | Interviewer | Date | Result | Notes |
 |-------|-------------|------|--------|-------|
-| Culture Fit | Haroun | | | |
+| Culture Fit | Haroun | | ✅ Pass | |
 | Tech 1: Solve Our Problem | Haroun | 2026-01-22 | **Strong Yes** | See detailed scoring below |
-| Tech 2: Day-to-Day | Anujan/Juzer | | | |
-| Closing | Haroun + Samee | | | |
+| Tech 2: Day-to-Day | Anujan/Juzer | | ✅ Pass | |
+| Closing | Haroun + Samee | | ✅ Offer Accepted | |
+
+> **✅ HIRED** — Feb 2026
 
 ---
 
@@ -187,7 +189,7 @@ My vote: **Strong Yes**
 
 | Question | Answer |
 |----------|--------|
-| **Final Decision** | Pending Tech 2 & Closing |
+| **Final Decision** | ✅ **HIRED** (Feb 2026) |
 | **Strengths** | Direct experience with exact problem (voice AI, automotive, eval churn), exceptional systems thinking, strong evals philosophy, humility |
 | **Concerns** | May default to quality over speed, cost tolerance (prefers GPT-4.1 despite margins) |
-| **Offer Details** | TBD |
+| **Offer Details** | Accepted |

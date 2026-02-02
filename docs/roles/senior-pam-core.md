@@ -1,5 +1,7 @@
 # Senior Pam Core Engineer (LLM Reliability)
 
+> **✅ FILLED** — Yousof Algburi hired (Feb 2026)
+
 ## Problem This Role Solves
 
 **Problem:** Product doesn't "feel good" during customer evaluation → new customers are churning. Competition is catching up.

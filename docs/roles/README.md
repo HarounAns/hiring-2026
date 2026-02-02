@@ -14,7 +14,7 @@
 
 | Role | Problem Solved | JD Status | Interview Status |
 |------|---------------|-----------|------------------|
-| [Senior Pam Core](./senior-pam-core.md) | Stability, LLM reliability | ⬜ | ⬜ |
+| [Senior Pam Core](./senior-pam-core.md) | Stability, LLM reliability | ✅ | ✅ Hired (Yousof Algburi) |
 | [Pam Core Support x2](./core-support.md) | Onboarding, monitoring | ⬜ | ⬜ |
 | [Integration Support](./integration-support.md) | TBD - needs Samee input | ⬜ | ⬜ |
 

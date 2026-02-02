@@ -1,5 +1,7 @@
 # Senior Pam Core Interview Guide
 
+> **✅ ROLE FILLED** — Yousof Algburi hired (Feb 2026). This guide retained for reference.
+
 **Position:** Senior Pam Core Engineer (LLM Reliability)
 
 ---

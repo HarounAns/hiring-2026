@@ -24,7 +24,7 @@ Let's work backwards from problems → hires, not hires → hope.
 
 | Hire | Solves Which Problem? | Confidence |
 |------|----------------------|------------|
-| Senior Pam Core | #2 (stability/LLM) | ✅ High - if focused on stability |
+| Senior Pam Core | #2 (stability/LLM) | ✅ **HIRED** (Yousof Algburi) |
 | Senior Operations Engineer | #1 (onboarding), #3 (monitoring) | ✅ High - automation + observability |
 | PAM Core Support x2 | #1, #2 (Tier 2 for LLM issues) | ✅ High - ships PRs, enables OPS |
 | Integration Support | #1 (integrations are main onboarding blocker) | ✅ High - ships PRs, enables OPS |
@@ -42,7 +42,7 @@ Let's work backwards from problems → hires, not hires → hope.
 
 ### ABOVE THE FOLD (Clear problem → hire mapping)
 
-#### 1. Senior Pam Core Engineer
+#### 1. Senior Pam Core Engineer ✅ HIRED
 **Problem Solved:** #2 - Product doesn't feel good during eval
 
 | Timeframe | Success Criteria |
@@ -53,7 +53,7 @@ Let's work backwards from problems → hires, not hires → hope.
 
 **Interview Focus:** LLM/AI systems experience, reliability engineering, incident response
 
-**Status:** ✅ JD complete, interview guide complete, candidate (Yousof) identified
+**Status:** ✅ **HIRED** — Yousof Algburi (Feb 2026)
 
 ---
 
@@ -228,7 +228,7 @@ Mobile engineer to improve existing app (built with Rork by junior), establish b
 
 | Hire | Problem | Confidence | Status |
 |------|---------|------------|--------|
-| Senior Pam Core | Stability/LLM | ✅ High | ✅ JD + Interview ready |
+| Senior Pam Core | Stability/LLM | ✅ **HIRED** | ✅ Yousof Algburi (Feb 2026) |
 | Senior Operations Engineer | Observability/Automation | ✅ High | ✅ JD ready |
 | PAM Core Support x2 | LLM issues (Tier 2) | ✅ High | ✅ JD ready |
 | Integration Support | Integrations (Tier 2) | ✅ High | ✅ JD ready |
@@ -273,5 +273,5 @@ Mobile engineer to improve existing app (built with Rork by junior), establish b
 - [ ] Align with Samee on problem → hire mapping
 - [ ] Finalize which hires proceed vs hold vs add
 - [ ] Write JDs by Wednesday
-- [ ] Schedule Yousuf for technical interviews
+- [x] ~~Schedule Yousuf for technical interviews~~ → Hired!
 - [ ] Define interview rubrics for each role

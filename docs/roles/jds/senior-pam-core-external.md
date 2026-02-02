@@ -1,5 +1,7 @@
 # Senior Engineer – LLM Reliability
 
+> **This role has been filled.**
+
 ## About the Role
 
 Pam is the fastest-growing voice AI platform for auto dealerships. We handle millions of calls, book service appointments, and drive real revenue for 500+ dealerships. Our moat is quality—when a customer calls, Pam needs to get it right.

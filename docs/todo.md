@@ -34,7 +34,7 @@
 
 | Role | Internal JD | External JD | Status |
 |------|-------------|-------------|--------|
-| Senior Pam Core | ✅ | ✅ | Ready |
+| Senior Pam Core | ✅ | ✅ | ✅ Hired (Yousof) |
 | Senior Operations Engineer | ✅ | ✅ | Ready |
 | PAM Core Support (x2) | ✅ | ✅ | Ready |
 | Integration Support | ✅ | ✅ | Ready |
@@ -52,22 +52,11 @@
 
 ---
 
-## Yousof Interview (Senior Pam Core)
+## ~~Yousof Interview (Senior Pam Core)~~ ✅ HIRED
 
-**Scheduled:** Thursday, January 22 @ 1:00–2:00pm
-**Link:** meet.google.com/dzk-yuqf-ogp
+**Result:** Yousof Algburi hired (Feb 2026)
 
-**Prep:**
-- [ ] Dry run the interview (practice the "Solve Our Problem" scenario)
-- [x] Review interview guide: [interviews/senior-pam-core/README.md](interviews/senior-pam-core/README.md)
-- [ ] Review role context: [roles/senior-pam-core.md](roles/senior-pam-core.md)
-- [ ] Read prep guide: [interviews/senior-pam-core/01-prep-guide.md](interviews/senior-pam-core/01-prep-guide.md)
-- [ ] Print/have open during interview: [interviews/senior-pam-core/02-cheat-sheet.md](interviews/senior-pam-core/02-cheat-sheet.md)
-- [ ] Review Yousof-specific probes: [candidates/senior-pam-core/yousof-algburi.md](candidates/senior-pam-core/yousof-algburi.md)
-
-**Technical Setup:**
-- [ ] Add Google Docs skill to Cursor (need to read/write starter templates for interviews)
-- [ ] Add Granola skill to Cursor (for note taking during interview)
+See candidate notes: [candidates/senior-pam-core/yousof-algburi.md](candidates/senior-pam-core/yousof-algburi.md)
 
 ---
 
