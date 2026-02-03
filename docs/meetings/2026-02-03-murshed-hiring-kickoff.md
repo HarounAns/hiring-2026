@@ -67,9 +67,9 @@ This is a 0→1 product engineering role. Without a dedicated owner, Sales Outbo
 3. Shipping features independently, reducing Agustin's load
 
 ### Senior Sales Outbound Engineer
-1. Fully understands codebase and Sales Outbound ontology
-2. Shipping fixes independently without Haroun involvement
-3. Can explain the product architecture to customers/stakeholders
+1. **Haroun is out** — Fully owns product decisions. Doesn't ask permission, doesn't need oversight. Haroun learns about progress from demos, not standups.
+2. **Customers live** — First paying customers on Sales Outbound (not just MVP pilots). Revenue attributable to their work.
+3. **Phase 2 in progress** — Email channel scoped, designed, or in development. Roadmap owned, not inherited.
 
 ### Mid-Level Mobile Engineer
 1. Code in production Day 1, 3+ visible UX improvements shipped
@@ -129,15 +129,23 @@ This is a 0→1 product engineering role. Without a dedicated owner, Sales Outbo
 
 ### Senior Sales Outbound Engineer
 **Must-haves:**
-- TypeScript + AWS proficiency
-- Prompt engineering experience
-- Data modeling skills (ERDs, ontologies)
-- 0→1 product ownership mentality
+- **Ownership mentality** — Has run a product or feature end-to-end. Made decisions, not just executed them. Can point to something and say "I built that, I owned it, here's what happened."
+- **Talks to customers** — Comfortable getting on calls, understanding pain, translating to product. Not hiding behind a PM.
+- **Ships fast** — Bias to action. Would rather ship something imperfect than wait for perfect requirements.
+- **TypeScript + AWS proficiency** — Our stack. Non-negotiable.
+- **Prompt engineering experience** — This is an LLM product. They need to understand how to make AI behave.
 
 **Nice-to-haves:**
+- Previous 0→1 experience (built something from scratch that became real)
 - CRM integration experience
 - Multi-channel messaging experience (SMS, email, phone)
 - Sales domain knowledge
+
+**Red flags for this role:**
+- "I need a PM to tell me what to build"
+- "I've never talked to customers directly"
+- Wants to rewrite everything before shipping
+- Can't articulate a product opinion
 
 ### Mid-Level Mobile Engineer
 **Must-haves:**
