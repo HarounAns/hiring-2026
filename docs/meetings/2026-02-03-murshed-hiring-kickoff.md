@@ -15,7 +15,20 @@ We're at ~$10M ARR with 500+ dealerships on our flagship product (Pam Inbound) a
 
 We're also raising a Series A/B, so stability is critical — one bad outage during investor diligence could tank the round.
 
-**Bottom line:** These hires are about unblocking growth by fixing onboarding and improving product quality, not adding features.
+**Additionally: Scaling the Outbound product**
+
+Outbound is our second product line (~$1M ARR, 40 dealerships, growing fast). Within Outbound, we have an emerging **Sales Outbound** product — an MVP that I (Haroun) built and currently own. Existing Service Outbound customers are asking for Sales capabilities. There's real customer demand.
+
+The problem: I can't run this product AND be CTO. Sales Outbound needs a dedicated engineer who can:
+- Take full ownership of the product (not just execute tickets)
+- Productionize the MVP (reliability, observability, scalability)
+- Own the sales ontology (leads, appointments, handoffs)
+- Ship multi-channel capabilities (SMS → email → phone)
+- Interface with customers directly
+
+This is a 0→1 product engineering role. Without a dedicated owner, Sales Outbound stalls — and we leave revenue on the table.
+
+**Bottom line:** These hires are about unblocking growth by fixing onboarding, improving product quality, and scaling emerging products that have proven demand.
 
 ---
 
@@ -177,7 +190,7 @@ We're also raising a Series A/B, so stability is critical — one bad outage dur
 | Senior Ops Engineer | Waqar (OPS Manager), Amina (OPS), Maheen, Engineering | OPS team is capable but lacks tooling and observability. Need someone to build the automation layer. |
 | Integration Support | Shaheer (Integration Eng), Omer (Head of Integrations), OPS team | Shaheer is sole integration support. Omer gets pulled in too often — that's a red flag. |
 | Senior Dashboard | Agustin (Dashboard Eng), Marcelo (Senior Eng) | Agustin is overloaded. Solid engineer but needs capacity. |
-| Senior Sales Outbound | Haroun (currently owns it), Laith (FDE) | Haroun is handing off ownership. Need someone who can take full product ownership. |
+| Senior Sales Outbound | Haroun (currently owns it), Laith (FDE), Outbound team (Uzair, Mevlut) | Haroun built the MVP but can't run it as CTO. This person takes full product ownership — not just engineering, but product direction. They'll work with Laith on customer-facing work and coordinate with the Outbound team on shared infrastructure. |
 | Mid Mobile | Hassan (Junior Mobile Eng) | Hassan built the app with Rork (AI tool). App works but needs professionalization. Need mentor. |
 
 **Overall team dynamic:** Fast-moving, scrappy, async-first. Everyone ships code. Low ego, high ownership. Engineering and OPS work closely together.
@@ -341,7 +354,7 @@ Some recruiters worry this scares away good candidates. It doesn't — it scares
 | Senior Ops Engineer | 🔴 Critical | Need observability before we can measure if anything else works. |
 | Integration Support | 🟡 High | Integrations block onboarding, but Shaheer can hold the line short-term. |
 | Senior Dashboard | 🟡 High | Agustin is overloaded but delivering. |
-| Senior Sales Outbound | 🟡 High | Haroun is handing off — need someone soon but MVP is stable. |
+| Senior Sales Outbound | 🟡 High | CTO can't run a product. MVP works but needs dedicated owner to scale. Customer demand exists. |
 | Mid Mobile | 🟢 Medium | App works. This is about professionalization, not fire-fighting. |
 
 **Milestone context:**
