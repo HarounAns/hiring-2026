@@ -211,52 +211,76 @@ We're also raising a Series A/B, so stability is critical — one bad outage dur
 
 ## 9. What traits or behaviors tend to make someone highly successful on your team?
 
-1. **Ships fast** — Code in production Day 1. PRs merged Week 1. We don't have long ramp-up periods.
-2. **Owns outcomes, not tasks** — Doesn't wait to be told what to do. Sees the problem, proposes solutions, executes.
-3. **Pushes back when needed** — Protects their time. Says "no" to scope creep. Prioritizes ruthlessly.
-4. **Customer empathy** — Especially for support roles. Understands that every ticket is a frustrated customer.
-5. **Clear communicator** — Async-first culture. Can explain complex issues in writing.
-6. **Low ego** — Will debug a gnarly issue at 2am if needed. Will do unglamorous work.
-7. **Production maturity** — Thinks about safety, measurement, rollback. Doesn't break things.
+**We hire for culture first.** Skills are learnable. Grit is not.
+
+**What we're looking for:**
+
+1. **Wants the grind** — This is a startup. It's hard. The best people hear that and get excited, not scared.
+2. **Ships fast** — Code in production Day 1. PRs merged Week 1. No long ramp-up periods.
+3. **Owns outcomes, not tasks** — Doesn't wait to be told what to do. Sees the problem, proposes solutions, executes.
+4. **Pushes back when needed** — Protects their time. Says "no" to scope creep. Prioritizes ruthlessly.
+5. **Figures things out** — Doesn't need hand-holding. Gets stuck, unsticks themselves, asks for help when actually blocked.
+6. **Customer empathy** — Especially for support roles. Understands that every ticket is a frustrated customer.
+7. **Low ego** — Will debug a gnarly issue at 2am if needed. Will do unglamorous work.
+
+**The Mevlut example:**
+- Hired as a culture fit — showed grit, wanted the grind
+- Worked his ass off, came to the office, leveled up fast
+- Skills came after. Culture was the foundation.
 
 **Red flags:**
 - "I need to understand the full architecture before I can contribute"
 - "That's not my job"
+- Looking for work-life balance as priority #1 (we're not the right fit)
 - Over-engineers solutions
 - Can't explain things simply
+- Needs constant direction
 
 ---
 
 ## 10. What does the interview process look like for each role, and who are the key decision-makers?
 
-### Process by Role Type
+### Hiring Philosophy
 
-**Senior Roles** (Ops Engineer, Dashboard, Sales Outbound) — 5 rounds
+**We hire in this order: Culture → Aptitude → Skills.**
+
+- **Culture** is hardest to change. Values are baked in.
+- **Aptitude** (learning speed, problem-solving) is somewhat fixed but workable.
+- **Skills** (TypeScript, React, AWS) are learnable. Don't over-index.
+
+The process is designed to filter for culture first, then validate aptitude, then confirm skills.
+
+### Process Overview
+
+**All roles go through the same first step: Haroun's 15-min culture screen.**
+
+This is intentionally short and intentionally brutal. Candidates hear the reality of the job — fast pace, high expectations, lots of ambiguity. This filters out people looking for a comfortable job. The people who stay after hearing the truth are the ones we want.
+
+### Senior Roles (Ops Engineer, Dashboard, Sales Outbound) — 4 rounds
 
 | Round | Format | Duration | Interviewer(s) | Focus |
 |-------|--------|----------|----------------|-------|
-| 1 | Recruiter Screen | 30 min | Murshed | Culture fit, logistics, salary expectations |
-| 2 | Hiring Manager Screen | 45 min | Haroun | Role fit, experience deep-dive, motivation |
-| 3 | Technical | 60 min | Haroun + relevant senior | Role-specific technical assessment |
-| 4 | Team Fit | 45 min | 1-2 future teammates | Collaboration, working style |
-| 5 | Final | 30 min | Samee | Executive alignment |
+| 1 | Recruiter Screen | 30 min | Murshed | Logistics, salary, basic red flags |
+| 2 | Culture Screen | 15 min | Haroun | "Worst job ever" pitch — filter for grit |
+| 3 | Technical + Aptitude | 60 min | Haroun + relevant senior | Role-specific assessment |
+| 4 | Final | 30 min | Samee | Executive alignment |
 
-**Support Roles** (PAM Core Support x2, Integration Support) — 4 rounds
+### Support Roles (PAM Core Support x2, Integration Support) — 4 rounds
 
 | Round | Format | Duration | Interviewer(s) | Focus |
 |-------|--------|----------|----------------|-------|
-| 1 | Recruiter Screen | 30 min | Murshed | Culture fit, logistics, salary expectations |
-| 2 | Hiring Manager Screen | 45 min | Haroun | Role fit, experience deep-dive, motivation |
-| 3 | Technical | 60 min | Anujan + Omer | Debugging, pushback ability, systems thinking |
+| 1 | Recruiter Screen | 30 min | Murshed | Logistics, salary, basic red flags |
+| 2 | Culture Screen | 15 min | Haroun | "Worst job ever" pitch — filter for grit |
+| 3 | Technical + Aptitude | 60 min | Anujan + Omer | Debugging, pushback ability, systems thinking |
 | 4 | Final | 30 min | Haroun | CTO alignment, final call |
 
-**Mid Mobile** — 4 rounds
+### Mid Mobile — 4 rounds
 
 | Round | Format | Duration | Interviewer(s) | Focus |
 |-------|--------|----------|----------------|-------|
-| 1 | Recruiter Screen | 30 min | Murshed | Culture fit, logistics, salary expectations |
-| 2 | Hiring Manager Screen | 45 min | Haroun | Role fit, experience deep-dive, motivation |
-| 3 | Technical | 60 min | Hassan + Marcelo | React Native, uplevel-vs-rewrite mindset |
+| 1 | Recruiter Screen | 30 min | Murshed | Logistics, salary, basic red flags |
+| 2 | Culture Screen | 15 min | Haroun | "Worst job ever" pitch — filter for grit |
+| 3 | Technical + Aptitude | 60 min | Hassan + Marcelo | React Native, uplevel-vs-rewrite mindset |
 | 4 | Final | 30 min | Haroun | CTO alignment, final call |
 
 ### Technical Focus by Role
@@ -280,6 +304,9 @@ We're also raising a Series A/B, so stability is critical — one bad outage dur
 
 ### Note on Support Role Interviews
 Anujan and Omer will be aligned on what to test for before interviewing. The goal of support hires is to **reduce escalations**, not just fix issues. They'll be testing for pushback ability, systems thinking, and whether candidates fix patterns vs. instances.
+
+### Why the "Worst Job Ever" Pitch Works
+Some recruiters worry this scares away good candidates. It doesn't — it scares away the wrong candidates. The people who self-select out after hearing the reality would have quit in 3 months anyway. The people who lean in are the ones who want the grind. This is intentional.
 
 ---
 
@@ -327,18 +354,30 @@ Anujan and Omer will be aligned on what to test for before interviewing. The goa
 ## 13. Are there any constraints I should be aware of upfront (budget, location, clearance, visa, remote policy)?
 
 **Location/Remote:**
-- Fully remote OK for all roles
+
+| Role | Location Preference | Notes |
+|------|---------------------|-------|
+| Senior Dashboard | **Onshore (US) required** | Need someone dependable, same timezone, can be in the room when it matters |
+| Senior Ops Engineer | Onshore preferred | High-touch role, benefits from proximity |
+| Senior Sales Outbound | Onshore preferred | Customer-facing, US timezone alignment helps |
+| PAM Core Support (x2) | Open to international | Async support can work across timezones |
+| Integration Support | Open to international | Same as above |
+| Mid Mobile | Open to international | UK timezone could work (potential expansion) |
+
+**General:**
 - Team is distributed (US, Canada, LATAM, Pakistan, Middle East)
 - Async-first culture — strong written communication required
+- For roles marked "onshore required," this is non-negotiable
 
 **Visa/Clearance:**
 - No clearance requirements
-- Open to international candidates
+- Open to international candidates for roles that allow it
 - Can sponsor if needed (case by case)
 
 **Budget:**
 - Competitive market rates
 - More flexibility for Senior roles that directly unblock revenue (Core Support, Ops Engineer)
+- Onshore roles will cost more — that's expected and acceptable for the right people
 - Less flexibility for roles that are "nice to have" (Mobile)
 
 **Other constraints:**
