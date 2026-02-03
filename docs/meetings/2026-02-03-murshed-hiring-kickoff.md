@@ -35,13 +35,17 @@ This is a 0→1 product engineering role. The Outbound team has the infrastructu
 
 ## 2. Of all the open roles, which are the top 1–2 priorities and why?
 
-**Top 2 Priorities:**
+**Top 3 Priorities (Equal):**
 
 1. **PAM Core Support Engineers (x2)** — Unblocks onboarding. These are Tier 2 support engineers who debug LLM behavior issues, ship PRs to fix them, and build runbooks so OPS can handle more without escalating. Our current support engineer (Maheen) is stretched thin and getting pulled into feature work.
 
 2. **Senior Operations Engineer** — Builds AI-powered automation for the support process: email-to-ticket pipelines, AI Tier 0 (auto-resolution), smart triage and escalation. This creates observability and scalability in our support process.
 
-**Why these two:** Every other problem stems from not being able to onboard and support customers at scale. These hires directly attack that bottleneck.
+3. **Integration Support Engineer** — Integrations are the #1 onboarding blocker. Customers sign contracts and wait weeks because of third-party delays (CDK: 2-3 weeks, MyKaarma: 24-48 hours, XTime: 24 hours). We need someone to own Tier 2 integration issues, debug API failures, ship fixes, and build runbooks. Shaheer is currently the only person on this — and Omer gets pulled in too often.
+
+**Why these three:** Every other problem stems from not being able to onboard and support customers at scale. These hires directly attack that bottleneck from both angles — LLM behavior (PAM Core Support), integrations (Integration Support), and the infrastructure to measure it all (Senior Ops Engineer).
+
+**Note:** Senior Pam Core (LLM Reliability) was our original #1 priority, but **already filled** — Yousof Algburi starts February 2026.
 
 ---
 
@@ -364,7 +368,7 @@ Some recruiters worry this scares away good candidates. It doesn't — it scares
 |------|---------|-----|
 | PAM Core Support (x2) | 🔴 Critical | Onboarding is THE bottleneck. Every week we delay = revenue delayed. |
 | Senior Ops Engineer | 🔴 Critical | Need observability before we can measure if anything else works. |
-| Integration Support | 🟡 High | Integrations block onboarding, but Shaheer can hold the line short-term. |
+| Integration Support | 🔴 Critical | Integrations are #1 onboarding blocker. Shaheer is solo, Omer gets pulled in too much. |
 | Senior Dashboard | 🟡 High | Agustin is overloaded but delivering. |
 | Senior Sales Outbound | 🟡 High | CTO can't run a product. MVP works but needs dedicated owner to scale. Customer demand exists. |
 | Mid Mobile | 🟢 Medium | App works. This is about professionalization, not fire-fighting. |
@@ -416,9 +420,9 @@ Some recruiters worry this scares away good candidates. It doesn't — it scares
 
 1. 🔴 PAM Core Support Engineer (x2)
 2. 🔴 Senior Operations Engineer
-3. 🟡 Integration Support Engineer
+3. 🔴 Integration Support Engineer
 4. 🟡 Senior Dashboard Engineer
 5. 🟡 Senior Sales Outbound Engineer
 6. 🟢 Mid-Level Mobile Engineer
 
-Let's focus sourcing energy on #1 and #2 first.
+Let's focus sourcing energy on #1, #2, and #3 — these all attack the onboarding bottleneck.
