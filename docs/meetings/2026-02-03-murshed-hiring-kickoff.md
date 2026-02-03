@@ -316,7 +316,7 @@ This is intentionally short and intentionally brutal. Candidates hear the realit
 
 | Role | Technical Interviewer(s) | What They're Testing |
 |------|-------------------------|----------------------|
-| Senior Ops Engineer | Haroun + Juzer | System design, automation pipelines, AI integration |
+| Senior Ops Engineer | Haroun + Omer | System design, automation pipelines, AI integration |
 | Senior Dashboard | Haroun + Marcelo | Frontend architecture, code review, UI/UX sensibility |
 | Senior Sales Outbound | Haroun | Full-stack, data modeling, prompt engineering, ownership |
 | PAM Core Support | Anujan + Omer | Debugging, customer communication, pushback ability, pattern-fixing |
@@ -384,19 +384,21 @@ Some recruiters worry this scares away good candidates. It doesn't — it scares
 
 **Location/Remote:**
 
+**Preference for all roles:** In-person in Tysons, VA office. Not required, but preferred.
+
 | Role | Location Preference | Notes |
 |------|---------------------|-------|
-| Senior Dashboard | **Onshore (US) required** | Need someone dependable, same timezone, can be in the room when it matters |
-| Senior Ops Engineer | Onshore preferred | High-touch role, benefits from proximity |
-| Senior Sales Outbound | Onshore preferred | Customer-facing, US timezone alignment helps |
-| PAM Core Support (x2) | Open to international | Async support can work across timezones |
-| Integration Support | Open to international | Same as above |
-| Mid Mobile | Open to international | UK timezone could work (potential expansion) |
+| Senior Dashboard | Tysons preferred, LATAM if offshore | Want someone in the room; if offshore, LATAM timezone works best |
+| Senior Ops Engineer | Tysons preferred | High-touch role, benefits from proximity |
+| Senior Sales Outbound | Tysons preferred | Customer-facing, US timezone alignment helps |
+| PAM Core Support (x2) | Tysons preferred, open to international | Async support can work across timezones |
+| Integration Support | Tysons preferred, open to international | Same as above |
+| Mid Mobile | Tysons preferred, open to international | UK timezone could work (potential expansion) |
 
 **General:**
 - Team is distributed (US, Canada, LATAM, Pakistan, Middle East)
 - Async-first culture — strong written communication required
-- For roles marked "onshore required," this is non-negotiable
+- In-person is preferred but not required for any role
 
 **Visa/Clearance:**
 - No clearance requirements
@@ -404,9 +406,14 @@ Some recruiters worry this scares away good candidates. It doesn't — it scares
 - Can sponsor if needed (case by case)
 
 **Budget:**
-- Competitive market rates
-- More flexibility for Senior roles that directly unblock revenue (Core Support, Ops Engineer)
-- Onshore roles will cost more — that's expected and acceptable for the right people
+
+| Level | Upper Band |
+|-------|------------|
+| Senior | $180k |
+| Mid | $120k |
+| Junior | $90-100k |
+
+- More flexibility for Senior roles that directly unblock revenue (Core Support, Ops Engineer, Sales Outbound)
 - Less flexibility for roles that are "nice to have" (Mobile)
 
 **Other constraints:**
