@@ -19,14 +19,15 @@ We're also raising a Series A/B, so stability is critical — one bad outage dur
 
 Outbound is our second product line (~$1M ARR, 40 dealerships, growing fast). Within Outbound, we have an emerging **Sales Outbound** product — an MVP that I (Haroun) built and currently own. Existing Service Outbound customers are asking for Sales capabilities. There's real customer demand.
 
-The problem: I can't run this product AND be CTO. Sales Outbound needs a dedicated engineer who can:
+Sales Outbound needs a dedicated engineer who can:
 - Take full ownership of the product (not just execute tickets)
+- Work with the Outbound team (Uzair, Mevlut, Rehan) on shared infrastructure
 - Productionize the MVP (reliability, observability, scalability)
 - Own the sales ontology (leads, appointments, handoffs)
 - Ship multi-channel capabilities (SMS → email → phone)
 - Interface with customers directly
 
-This is a 0→1 product engineering role. Without a dedicated owner, Sales Outbound stalls — and we leave revenue on the table.
+This is a 0→1 product engineering role. The Outbound team has the infrastructure expertise; this person owns the Sales product on top of it.
 
 **Bottom line:** These hires are about unblocking growth by fixing onboarding, improving product quality, and scaling emerging products that have proven demand.
 
@@ -67,9 +68,9 @@ This is a 0→1 product engineering role. Without a dedicated owner, Sales Outbo
 3. Shipping features independently, reducing Agustin's load
 
 ### Senior Sales Outbound Engineer
-1. **Haroun is out** — Fully owns product decisions. Doesn't ask permission, doesn't need oversight. Haroun learns about progress from demos, not standups.
-2. **Customers live** — First paying customers on Sales Outbound (not just MVP pilots). Revenue attributable to their work.
-3. **Phase 2 in progress** — Email channel scoped, designed, or in development. Roadmap owned, not inherited.
+1. **Owns Sales product** — Runs the product day-to-day. Makes product decisions, prioritizes roadmap, coordinates with Outbound team (Uzair, Mevlut, Rehan).
+2. **Customers live** — First paying customers on Sales Outbound (beyond MVP pilots). Revenue attributable to their work.
+3. **Phase 2 in progress** — Email channel scoped, designed, or in development. Sees around corners, not just executing current backlog.
 
 ### Mid-Level Mobile Engineer
 1. Code in production Day 1, 3+ visible UX improvements shipped
@@ -198,7 +199,7 @@ This is a 0→1 product engineering role. Without a dedicated owner, Sales Outbo
 | Senior Ops Engineer | Waqar (OPS Manager), Amina (OPS), Maheen, Engineering | OPS team is capable but lacks tooling and observability. Need someone to build the automation layer. |
 | Integration Support | Shaheer (Integration Eng), Omer (Head of Integrations), OPS team | Shaheer is sole integration support. Omer gets pulled in too often — that's a red flag. |
 | Senior Dashboard | Agustin (Dashboard Eng), Marcelo (Senior Eng) | Agustin is overloaded. Solid engineer but needs capacity. |
-| Senior Sales Outbound | Haroun (currently owns it), Laith (FDE), Outbound team (Uzair, Mevlut) | Haroun built the MVP but can't run it as CTO. This person takes full product ownership — not just engineering, but product direction. They'll work with Laith on customer-facing work and coordinate with the Outbound team on shared infrastructure. |
+| Senior Sales Outbound | Outbound team (Uzair, Mevlut, Rehan), Laith (FDE) | Owns Sales product, works closely with Outbound team on shared infrastructure. Laith handles customer-facing/FDE work. This person is the product owner — makes decisions, sets direction, ships. |
 | Mid Mobile | Hassan (Junior Mobile Eng) | Hassan built the app with Rork (AI tool). App works but needs professionalization. Need mentor. |
 
 **Overall team dynamic:** Fast-moving, scrappy, async-first. Everyone ships code. Low ego, high ownership. Engineering and OPS work closely together.
