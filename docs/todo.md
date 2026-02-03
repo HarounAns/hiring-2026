@@ -60,6 +60,23 @@ See candidate notes: [candidates/senior-pam-core/yousof-algburi.md](candidates/s
 
 ---
 
+## Omer & Anujan Alignment (Before Support Interviews)
+
+- [ ] Write alignment doc for Omer & Anujan
+  - **Mindset shift:** Support hires are about reducing escalations, not just fixing issues
+  - **What to test for:** Pushback ability, systems thinking, pattern-fixing vs instance-fixing
+  - **Red flags:** People who just want to debug, won't build runbooks, won't say no
+  - **Interview questions:** What to ask, what good/bad answers look like
+- [ ] Add requirement: They need to build monitoring/visibility for escalation funnel
+  - Track full funnel from OPS (Tier 1) → Tier 2 → Tier 3
+  - Not just "what gets past Tier 2" — need to see the whole picture
+  - Metrics: volume at each tier, resolution rates, time to resolution, escalation reasons
+  - This is prerequisite for measuring if new hires actually help
+- [ ] Schedule 30-min alignment meeting to walk through doc
+- [ ] Get their buy-in before they interview anyone
+
+---
+
 ## After Samee Approval
 
 - [ ] Finalize which hires proceed vs hold

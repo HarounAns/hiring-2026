@@ -229,34 +229,57 @@ We're also raising a Series A/B, so stability is critical — one bad outage dur
 
 ## 10. What does the interview process look like for each role, and who are the key decision-makers?
 
-### Standard Process (All Roles)
+### Process by Role Type
+
+**Senior Roles** (Ops Engineer, Dashboard, Sales Outbound) — 5 rounds
 
 | Round | Format | Duration | Interviewer(s) | Focus |
 |-------|--------|----------|----------------|-------|
 | 1 | Recruiter Screen | 30 min | Murshed | Culture fit, logistics, salary expectations |
 | 2 | Hiring Manager Screen | 45 min | Haroun | Role fit, experience deep-dive, motivation |
-| 3 | Technical/Aptitude | 60 min | Yousof Algburi (Senior Core Eng) | Role-specific technical assessment |
+| 3 | Technical | 60 min | Haroun + relevant senior | Role-specific technical assessment |
 | 4 | Team Fit | 45 min | 1-2 future teammates | Collaboration, working style |
-| 5 | Final | 30 min | Samee (CEO) or Haroun | Senior roles only, final alignment |
+| 5 | Final | 30 min | Samee | Executive alignment |
 
-### Role-Specific Technical Focus (Round 3)
+**Support Roles** (PAM Core Support x2, Integration Support) — 4 rounds
 
-| Role | Technical Focus |
-|------|-----------------|
-| PAM Core Support | Debugging exercise, customer communication simulation |
-| Senior Ops Engineer | System design, automation pipelines, AI integration |
-| Integration Support | API debugging, webhook troubleshooting |
-| Senior Dashboard | Frontend architecture, code review, UI/UX sensibility |
-| Senior Sales Outbound | Full-stack, data modeling, prompt engineering |
-| Mid Mobile | React Native, uplevel-vs-rewrite mindset (critical) |
+| Round | Format | Duration | Interviewer(s) | Focus |
+|-------|--------|----------|----------------|-------|
+| 1 | Recruiter Screen | 30 min | Murshed | Culture fit, logistics, salary expectations |
+| 2 | Hiring Manager Screen | 45 min | Haroun | Role fit, experience deep-dive, motivation |
+| 3 | Technical | 60 min | Anujan + Omer | Debugging, pushback ability, systems thinking |
+| 4 | Final | 30 min | Haroun | CTO alignment, final call |
+
+**Mid Mobile** — 4 rounds
+
+| Round | Format | Duration | Interviewer(s) | Focus |
+|-------|--------|----------|----------------|-------|
+| 1 | Recruiter Screen | 30 min | Murshed | Culture fit, logistics, salary expectations |
+| 2 | Hiring Manager Screen | 45 min | Haroun | Role fit, experience deep-dive, motivation |
+| 3 | Technical | 60 min | Hassan + Marcelo | React Native, uplevel-vs-rewrite mindset |
+| 4 | Final | 30 min | Haroun | CTO alignment, final call |
+
+### Technical Focus by Role
+
+| Role | Technical Interviewer(s) | What They're Testing |
+|------|-------------------------|----------------------|
+| Senior Ops Engineer | Haroun + Juzer | System design, automation pipelines, AI integration |
+| Senior Dashboard | Haroun + Marcelo | Frontend architecture, code review, UI/UX sensibility |
+| Senior Sales Outbound | Haroun | Full-stack, data modeling, prompt engineering, ownership |
+| PAM Core Support | Anujan + Omer | Debugging, customer communication, pushback ability, pattern-fixing |
+| Integration Support | Anujan + Omer | API debugging, webhook troubleshooting, pushback ability |
+| Mid Mobile | Hassan + Marcelo | React Native, uplevel-vs-rewrite mindset (critical) |
 
 ### Key Decision-Makers
-- **Hiring Manager:** Haroun (final say on all engineering hires)
-- **Technical Vetting:** Yousof Algburi
-- **Executive Alignment:** Samee (for senior roles)
+- **All roles:** Haroun (CTO) has final say
+- **Senior roles:** Samee (CEO) provides executive alignment
+- **Support roles:** Anujan + Omer run technical, Haroun is final touch
 
 ### Decision Rule
 **One No = No Hire.** If any interviewer isn't a Yes, we don't proceed.
+
+### Note on Support Role Interviews
+Anujan and Omer will be aligned on what to test for before interviewing. The goal of support hires is to **reduce escalations**, not just fix issues. They'll be testing for pushback ability, systems thinking, and whether candidates fix patterns vs. instances.
 
 ---
 
