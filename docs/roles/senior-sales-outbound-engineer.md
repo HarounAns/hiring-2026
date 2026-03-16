@@ -219,7 +219,7 @@ For Sales, you need to:
 
 ## Interview Process
 
-See [interviews/senior-sales-outbound-engineer.md](../interviews/senior-sales-outbound-engineer.md)
+See [interviews/senior-sales-outbound/](../interviews/senior-sales-outbound/)
 
 ---
 
