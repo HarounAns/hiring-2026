@@ -1,16 +1,16 @@
-# Senior Engineer – LLM Reliability
+# Senior Software Engineer – LLM Reliability
 
-> **This role has been filled.**
+## About the Company
 
-## About the Role
+Pam is the fastest-growing voice AI platform for auto dealerships. We handle millions of calls, book service appointments, and drive real revenue for 500+ dealerships. Our moat is quality — when a customer calls, Pam needs to get it right.
 
-Pam is the fastest-growing voice AI platform for auto dealerships. We handle millions of calls, book service appointments, and drive real revenue for 500+ dealerships. Our moat is quality—when a customer calls, Pam needs to get it right.
+You built the monitoring dashboard nobody asked for because flying blind made you uncomfortable. You fixed the production issue at 2am not because you were on-call, but because you saw the alert and couldn't leave it alone. You care more about what the system does at 3am on a Saturday than what it does in the demo.
 
 We're hiring a Senior Engineer to own LLM reliability. This isn't a feature role. This is the "make it bulletproof" role. You'll be the person who ensures Pam says the right thing, every time, and catches problems before customers do.
 
 If you get energy from making AI systems reliable at scale—not just shipping demos—this is your role.
 
-## What You'll Do
+## Role
 
 - Own LLM reliability and response quality across our voice AI platform
 - Build observability into LLM behavior—know when Pam is performing well vs struggling
@@ -19,7 +19,7 @@ If you get energy from making AI systems reliable at scale—not just shipping d
 - Ship fast—we expect code in production your first week, and meaningful impact within your first month
 - Mentor junior engineers on LLM reliability practices
 
-## You Might Be a Good Fit If You
+## Qualifications
 
 - Have 5+ years of software engineering experience, with at least 1 year working on production LLM systems
 - Are strong in TypeScript (our entire stack) and AWS
@@ -29,6 +29,7 @@ If you get energy from making AI systems reliable at scale—not just shipping d
 - Think in terms of measuring and improving, not just shipping and hoping
 - Can debug deeply when an LLM is behaving badly—prompt issues, context problems, model limitations
 - Move fast but care about quality—you ship Day 1, but you think about what could go wrong
+- Improve systems proactively — not because someone filed a ticket, but because you saw the problem coming
 - Get energy from reliability work, not just feature work
 
 ## What Success Looks Like
@@ -36,7 +37,7 @@ If you get energy from making AI systems reliable at scale—not just shipping d
 **Month 1:**
 - Code in production Week 1
 - Top LLM reliability issue identified AND fixed
-- Customer health visibility exists—team can see who's struggling
+- Customer health visibility exists — team can see who's struggling
 - You have a plan for months 2-3 that we believe in
 
 **Month 3:**
@@ -49,7 +50,7 @@ If you get energy from making AI systems reliable at scale—not just shipping d
 - LLM quality is a clear differentiator vs competition
 - Junior engineers can debug and improve LLM behavior themselves
 
-## Bonus Points
+## Preferences
 
 - Experience with voice AI, conversational systems, or real-time AI
 - Built LLM evaluation frameworks or quality monitoring systems
@@ -57,10 +58,4 @@ If you get energy from making AI systems reliable at scale—not just shipping d
 - Background in reliability engineering, SRE, or production ML systems
 - You've been on-call for AI systems and have scars to show for it
 
-## About Pam
-
-Pam is an AI playground for builders. We combine strong engineering fundamentals with cutting-edge AI, creating space for you to grow into the engineer of tomorrow.
-
-We're backed by Autotech Ventures and partner with the biggest names in automotive (Tekion, Dealer-FX, CDK). We've powered $100M+ in repair orders and handle calls for 500+ dealerships across the US and Canada.
-
-This is a chance to own a critical piece of a fast-growing AI company, not just write code for someone else's vision.
+If you care more about what the system does at 3am than what it does in the demo — we want to talk to you.
