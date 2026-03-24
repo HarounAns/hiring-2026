@@ -1,3 +1,27 @@
+---
+name: Ethan Ortega
+role: integration-support
+stage: technical
+source: recruiter
+email:
+phone:
+linkedin:
+location: Riverside, CA (remote)
+applied_date: 2026-02-08
+current_role: Software Engineer at STELLA Automotive AI
+years_experience: 1
+stage_history:
+  - stage: sourced
+    date: 2026-02-08
+    notes: Recruiter sourced
+  - stage: culture_screen
+    date: 2026-02-11
+    notes: Passed — took the oath
+  - stage: technical
+    date: 2026-02-11
+    notes: Advancing to Omer for technical screen
+---
+
 # Candidate: Ethan Ortega
 
 **Position:** Integration Support Engineer  

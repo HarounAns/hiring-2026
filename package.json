@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "npx serve . & sleep 2 && open http://localhost:3000/team-structure.html",
     "start": "npx serve .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pipeline": "npx tsx docs/candidates/scripts/pipeline.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "docx": "^9.5.1"
+    "docx": "^9.5.1",
+    "gray-matter": "^4.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
   }
 }

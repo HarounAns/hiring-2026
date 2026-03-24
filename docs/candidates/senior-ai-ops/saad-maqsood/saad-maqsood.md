@@ -1,3 +1,27 @@
+---
+name: Saad Maqsood
+role: senior-ai-ops
+stage: rejected
+source: recruiter
+email:
+phone:
+linkedin:
+location:
+applied_date: 2026-02-10
+current_role: Unknown (8 years development experience)
+years_experience: 8
+stage_history:
+  - stage: sourced
+    date: 2026-02-10
+    notes: Recruiter sourced
+  - stage: culture_screen
+    date: 2026-02-13
+    notes: Rejected — did not pass culture gate
+  - stage: rejected
+    date: 2026-02-13
+    notes: No ownership stories, weak AI signal, no leadership trajectory
+---
+
 # Candidate: Saad Maqsood
 
 **Position:** Senior AI Ops Engineer  

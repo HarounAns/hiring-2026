@@ -1,3 +1,27 @@
+---
+name: Ubaid Majied
+role: senior-ai-ops
+stage: rejected
+source: recruiter
+email:
+phone:
+linkedin:
+location:
+applied_date: 2026-02-15
+current_role: Software Engineer at storytelling startup (building voice agents)
+years_experience:
+stage_history:
+  - stage: sourced
+    date: 2026-02-15
+    notes: Recruiter sourced
+  - stage: culture_screen
+    date: 2026-02-18
+    notes: "Hard No — Pam is 'just a job', not AI-native, no ownership stories"
+  - stage: rejected
+    date: 2026-02-18
+    notes: Did not pass culture gate
+---
+
 # Candidate: Ubaid Majied
 
 **Position:** Senior AI Ops Engineer (SWE — LLMs)  

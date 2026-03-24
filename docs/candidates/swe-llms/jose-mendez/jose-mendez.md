@@ -1,3 +1,27 @@
+---
+name: Jose Mendez
+role: swe-llms
+stage: short_circuit
+source: recruiter
+email:
+phone:
+linkedin:
+location:
+applied_date: 2026-03-01
+current_role: Software Engineer at NCR Alios
+years_experience: 4
+stage_history:
+  - stage: sourced
+    date: 2026-03-01
+    notes: Recruiter sourced
+  - stage: culture_screen
+    date: 2026-03-04
+    notes: Passed — took the oath, already building voice-enabled LLM
+  - stage: short_circuit
+    date: 2026-03-04
+    notes: Advancing to next round
+---
+
 # Candidate: Jose Mendez
 
 **Position:** SWE — LLMs  

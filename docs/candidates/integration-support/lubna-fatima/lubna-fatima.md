@@ -1,3 +1,27 @@
+---
+name: Lubna Fatima
+role: integration-support
+stage: technical
+source: recruiter
+email:
+phone:
+linkedin:
+location:
+applied_date: 2026-02-16
+current_role: AI Engineer at Ribbon Demographics
+years_experience: 1
+stage_history:
+  - stage: sourced
+    date: 2026-02-16
+    notes: Recruiter sourced
+  - stage: culture_screen
+    date: 2026-02-19
+    notes: Strong pass — took the oath, 5-year plan names Pam specifically
+  - stage: technical
+    date: 2026-02-19
+    notes: Moving to technical round
+---
+
 # Candidate: Lubna Fatima
 
 **Position:** SWE — Integrations  

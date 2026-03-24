@@ -1,3 +1,24 @@
+---
+name: Shabi Mustafa
+role: senior-ai-ops
+stage: culture_screen
+source: referral
+email:
+phone:
+linkedin:
+location:
+applied_date: 2026-03-01
+current_role: HubSpot (top AI power user internally)
+years_experience:
+stage_history:
+  - stage: sourced
+    date: 2026-03-01
+    notes: Personal friend of Haroun, re-engaging after prior stint
+  - stage: culture_screen
+    date: 2026-03-01
+    notes: Informal conversations ongoing, comp discussion pending
+---
+
 # Candidate: Shabi Mustafa
 
 **Position:** Senior AI Ops Engineer  

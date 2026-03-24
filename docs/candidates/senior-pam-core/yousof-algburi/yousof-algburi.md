@@ -1,3 +1,33 @@
+---
+name: Yousof Algburi
+role: senior-pam-core
+stage: hired
+source: recruiter
+email:
+phone:
+linkedin: https://www.linkedin.com/in/yousofalgburi/
+location:
+applied_date: 2026-01-15
+current_role: Principal Software Engineer at CallBox
+years_experience: 5
+stage_history:
+  - stage: sourced
+    date: 2026-01-15
+    notes: Recruiter sourced
+  - stage: culture_screen
+    date: 2026-01-18
+    notes: Passed culture fit
+  - stage: technical
+    date: 2026-01-22
+    notes: "Strong Yes — 39/40"
+  - stage: closing
+    date: 2026-02-01
+    notes: Offer accepted
+  - stage: hired
+    date: 2026-02-01
+    notes: Started Feb 2026
+---
+
 # Candidate: Yousof Algburi
 
 **Position:** Senior Pam Core Engineer (LLM Reliability)
