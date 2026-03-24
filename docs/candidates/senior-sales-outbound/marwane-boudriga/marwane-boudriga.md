@@ -1,14 +1,14 @@
 ---
 name: Marwane Boudriga
 role: senior-sales-outbound
-stage: short_circuit
+stage: rejected
 source: inbound
 email: marwane23@gmail.com
 phone: "571.337.0044"
 linkedin: https://linkedin.com/in/marwaneboudriga
 location: Virginia
 applied_date: 2026-03-24
-current_role: Senior Software Engineer at BlackBoiler
+current_role: Senior Software Engineer at BlackBoiler (laid off 2026-03-23)
 years_experience: 7
 stage_history:
   - stage: sourced
@@ -17,9 +17,9 @@ stage_history:
   - stage: culture_screen
     date: 2026-03-24
     notes: Scheduled for 15 min culture screen
-  - stage: short_circuit
+  - stage: rejected
     date: 2026-03-24
-    notes: "Passed culture screen — strong pass, took the oath. Moving to short circuit."
+    notes: "Rejected at culture screen — specialist front-end career path and Director of UI ambition don't align with PAM's 20x engineer model. Mutual agreement on no fit."
 ---
 
 # Candidate: Marwane Boudriga
@@ -73,7 +73,7 @@ TypeScript, JavaScript, Python | React, Next.js, Zustand, Redux, Tailwind, Chakr
 
 | Stage | Interviewer | Date | Result | Notes |
 |-------|-------------|------|--------|-------|
-| Culture Fit | | 2026-03-24 | Strong Pass | Took the oath |
+| Culture Fit | Haroun | 2026-03-24 | Reject | Specialist path misaligned — no fit |
 | Short Circuit | | | | |
 | Technical | | | | |
 | Closing | | | | |
@@ -84,16 +84,16 @@ TypeScript, JavaScript, Python | React, Next.js, Zustand, Redux, Tailwind, Chakr
 
 ### Culture Fit Screen
 
-**Vote:**
+**Vote: Reject**
 
 | Question | What they said | Signal |
 |----------|---------------|--------|
-| **Goals** | | |
-| **Why Pam** | | |
-| **10 years** | | |
-| **5 years** | | |
-| **AI** | | |
-| **The Oath** | | |
+| **Goals** | Wants to grow into staff front-end engineer, then Director of UI owning a product line | Specialist mindset — misaligned with 20x engineer model |
+| **Why Pam** | Comfortable doing 0→1, but front-end is his main expertise; backend/DB scaling is not | Honest about limitations but confirms narrow scope |
+| **10 years** | Director of UI trajectory | Not founder-track; doesn't match the archetype that succeeds at PAM |
+| **5 years** | Staff front-end engineer | Doubling down on specialization that PAM sees as obsolete |
+| **AI** | Has AI experience (BlackBoiler) but views it through a front-end lens | Doesn't see AI as eliminating the specialist role |
+| **The Oath** | Did not take the oath — meeting ended with mutual agreement on no fit | N/A |
 
 ### Short Circuit Screen
 
@@ -111,7 +111,7 @@ TypeScript, JavaScript, Python | React, Next.js, Zustand, Redux, Tailwind, Chakr
 
 | Question | Answer |
 |----------|--------|
-| **Final Decision** | |
-| **Strengths** | |
-| **Concerns** | |
-| **Offer Details** | |
+| **Final Decision** | Reject — mutual agreement, ended at culture screen |
+| **Strengths** | Real 0→1 experience, proactive outreach, AI production work at BlackBoiler, honest and self-aware |
+| **Concerns** | Career path is pure specialist front-end; aspires to Director of UI which doesn't exist at PAM; doesn't align with 20x engineer philosophy; backend/DB not in his wheelhouse |
+| **Offer Details** | N/A |
