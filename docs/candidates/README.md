@@ -31,11 +31,12 @@
 
 | Candidate | Stage | Source | Date | File |
 |-----------|-------|--------|------|------|
-| Marwane Boudriga | Short Circuit | inbound | 2026-03-24 | [marwane](senior-sales-outbound/marwane-boudriga/marwane-boudriga.md) |
 | Yousaf Zayd | Short Circuit | inbound | 2026-03-09 | [yousaf](senior-sales-outbound/yousaf-zayd/yousaf-zayd.md) |
+| Marwane Boudriga | Rejected | inbound | 2026-03-24 | [marwane](senior-sales-outbound/marwane-boudriga/marwane-boudriga.md) |
 
 ## Swe Llms
 
 | Candidate | Stage | Source | Date | File |
 |-----------|-------|--------|------|------|
+| Adnan Zafar | Culture Screen | referral | 2026-03-23 | [adnan](swe-llms/adnan-zafar/adnan-zafar.md) |
 | Jose Mendez | Short Circuit | recruiter | 2026-03-01 | [jose](swe-llms/jose-mendez/jose-mendez.md) |
