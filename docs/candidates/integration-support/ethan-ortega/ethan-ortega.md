@@ -1,7 +1,7 @@
 ---
 name: Ethan Ortega
 role: integration-support
-stage: technical
+stage: hired
 source: recruiter
 email:
 phone:
@@ -20,6 +20,12 @@ stage_history:
   - stage: technical
     date: 2026-02-11
     notes: Advancing to Omer for technical screen
+  - stage: offer
+    date: 2026-03-10
+    notes: "Offer accepted. $110k base, 5,000 shares, $2k relo, Rise stipend ($650/mo), unlimited PTO. Offer letter signed by Haroun same day."
+  - stage: hired
+    date: 2026-03-10
+    notes: "Start date: 2026-03-30. Relocating from California to Tysons Corner."
 ---
 
 # Candidate: Ethan Ortega

@@ -1,9 +1,9 @@
 ---
 name: Shabi Mustafa
 role: senior-ai-ops
-stage: culture_screen
+stage: technical
 source: referral
-email:
+email: shabi.mustafa@gmail.com
 phone:
 linkedin:
 location:
@@ -17,6 +17,9 @@ stage_history:
   - stage: culture_screen
     date: 2026-03-01
     notes: Informal conversations ongoing, comp discussion pending
+  - stage: technical
+    date: 2026-03-27
+    notes: "Interview 1 with Haroun + Omer. Dove into onboarding bottleneck, Linear for tracking, automated integration follow-ups. Shabi got action items. Passed."
 ---
 
 # Candidate: Shabi Mustafa
