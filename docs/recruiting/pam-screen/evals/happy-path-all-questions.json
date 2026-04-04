@@ -1,0 +1,22 @@
+{
+  "name": "Happy path - cooperative candidate, all 6 questions completed",
+  "response_engine": {
+    "type": "retell-llm",
+    "llm_id": "llm_6385d5481a76be4029ef5ce8dc1d",
+    "version": 0
+  },
+  "dynamic_variables": {
+    "firstName": "Alex"
+  },
+  "metrics": [
+    "Pam introduces herself by name and mentions Pam AI",
+    "Pam mentions the Senior Software Engineer position",
+    "Pam asks these 6 questions: (1) location/Tysons Corner, (2) work authorization/visa, (3) compensation expectations, (4) earliest start date, (5) a time they did not build a requested feature, (6) what breaks when scaling from 40 to 200 customers",
+    "Pam asks if the candidate has any questions before wrapping up",
+    "Pam ends the call with a warm closing"
+  ],
+  "user_prompt": "## Identity\nYour name is Alex. You are a senior software engineer with 5 years of experience at a startup.\n\n## Goal\nYou are cooperative and happy to answer all questions honestly. Answer each question with 2-3 sentences.\n- Location: You live in Arlington, Virginia.\n- Visa: US citizen.\n- Comp: You're looking for around 180K.\n- Start date: You can start in two weeks.\n- Didn't build: Your CEO wanted to rebuild the entire dashboard from scratch. You pushed back because the existing one worked fine and the team was already behind on customer-facing features. You proposed incremental improvements instead and the CEO agreed after seeing the data.\n- Scaling: The first thing that breaks is onboarding. At 40 customers you can hand-hold each one, but at 200 the manual steps become the bottleneck. You'd know it's breaking when time-to-live starts creeping up and support tickets spike in the first week.\n\n## Personality\nFriendly, concise, engaged. Say 'yeah sure' when asked if now is a good time.",
+  "type": "simulation",
+  "tool_mocks": [],
+  "llm_model": "gpt-4.1-mini"
+}

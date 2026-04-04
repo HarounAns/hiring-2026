@@ -1,7 +1,7 @@
 ---
 name: Shabi Mustafa
 role: senior-ai-ops
-stage: technical
+stage: offer
 source: referral
 email: shabi.mustafa@gmail.com
 phone:
@@ -20,6 +20,15 @@ stage_history:
   - stage: technical
     date: 2026-03-27
     notes: "Interview 1 with Haroun + Omer. Dove into onboarding bottleneck, Linear for tracking, automated integration follow-ups. Shabi got action items. Passed."
+  - stage: technical
+    date: 2026-03-31
+    notes: "Interview 2 with Omer + Marcelo. Integration playbook with differentiated SLAs, agentic website for DMS integrations, automated escalation. Led independently. Passed — team unanimous hire decision."
+  - stage: closing
+    date: 2026-03-31
+    notes: "Debrief with Omer + Marcelo. Hire decision confirmed. One concern: vision gap — solutions were pragmatic/API-focused, needs bolder AI-native thinking. Strategy: frame vision gap as selling point in closing doc."
+  - stage: offer
+    date: 2026-03-31
+    notes: "Offer accepted. $185k base + $15k signing bonus + 0.1% equity. Pending lawyer approval on contract."
 ---
 
 # Candidate: Shabi Mustafa
@@ -50,9 +59,13 @@ Since then:
 
 | Stage | Interviewer | Date | Result | Notes |
 |-------|-------------|------|--------|-------|
-| Informal conversations | Haroun | Ongoing | **In progress** | Re-engaging after prior stint. Comp discussion pending (Samee involved). |
+| Informal conversations | Haroun | Ongoing | **Passed** | Re-engaging after prior stint. Comp discussion pending (Samee involved). |
+| Technical Interview 1 | Haroun + Omer | Mar 27 | **Passed** | Onboarding bottleneck exercise. Reactive but raw ingredients present. |
+| Technical Interview 2 | Omer + Marcelo | Mar 31 | **Passed** | Integration playbook. Led independently. Unanimous hire decision. |
+| Closing | Haroun | Mar 31 | **Passed** | Closing doc drafted. Vision gap framed as selling point. |
+| Offer | Haroun | Mar 31 | **Accepted** | $185k base + $15k signing bonus + 0.1% equity. Pending lawyer approval. |
 
-> **Active candidate** — Mar 2026
+> **Offer accepted** — Mar 2026
 
 ---
 

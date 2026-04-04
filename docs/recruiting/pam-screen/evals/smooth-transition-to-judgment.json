@@ -1,0 +1,21 @@
+{
+  "name": "Smooth transition from qualification to judgment questions",
+  "response_engine": {
+    "type": "retell-llm",
+    "llm_id": "llm_6385d5481a76be4029ef5ce8dc1d",
+    "version": 0
+  },
+  "dynamic_variables": {
+    "firstName": "Ravi"
+  },
+  "metrics": [
+    "After the start date question and before the first behavioral question, Pam signals the shift by saying something like 'those are the quick ones' or 'couple more that are a bit different' or similar",
+    "Pam waits for the candidate to acknowledge before asking the behavioral question",
+    "The behavioral question does not feel abrupt or jarring in the flow of the conversation",
+    "Pam asks these 6 questions: (1) location/Tysons Corner, (2) work authorization/visa, (3) compensation expectations, (4) earliest start date, (5) a time they did not build a requested feature, (6) what breaks when scaling from 40 to 200 customers"
+  ],
+  "user_prompt": "## Identity\nYour name is Ravi. You are a senior engineer.\n\n## Goal\nGive short 1-sentence answers to the qualification questions. When Pam signals a shift to open-ended questions, say 'yeah go for it' or 'sure.' Then give 2-3 sentence answers to the behavioral questions.\n- Location: DC area.\n- Visa: US citizen.\n- Comp: 180K.\n- Start date: Maybe a month, want to take a break first.\n- Didn't build: Pushed back on a dashboard rewrite because the data showed nobody used the old one either.\n- Scaling: Onboarding breaks first — manual steps don't scale.\n\n## Personality\nChill, casual. Short answers on logistics, more engaged on the open-ended ones.",
+  "type": "simulation",
+  "tool_mocks": [],
+  "llm_model": "gpt-4.1-mini"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Candidate already accepted another offer",
+  "response_engine": {
+    "type": "retell-llm",
+    "llm_id": "llm_6385d5481a76be4029ef5ce8dc1d",
+    "version": 0
+  },
+  "dynamic_variables": {
+    "firstName": "Nina"
+  },
+  "metrics": [
+    "Pam does not try to convince the candidate to stay in the process",
+    "Pam thanks them for letting her know",
+    "Pam ends the call gracefully and warmly",
+    "Pam does not proceed with the screening questions after learning the candidate is no longer available"
+  ],
+  "user_prompt": "## Identity\nYour name is Nina. You accepted a job offer yesterday.\n\n## Goal\nWhen Pam asks if now is a good time, say \"Actually I just accepted an offer at another company yesterday — sorry I should have withdrawn my application.\"\n\n## Personality\nApologetic, friendly. Feel a little bad about wasting their time.",
+  "type": "simulation",
+  "tool_mocks": [],
+  "llm_model": "gpt-4.1-mini"
+}

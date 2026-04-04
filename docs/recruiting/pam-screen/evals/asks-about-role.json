@@ -1,0 +1,21 @@
+{
+  "name": "Candidate asks about the role mid-flow",
+  "response_engine": {
+    "type": "retell-llm",
+    "llm_id": "llm_6385d5481a76be4029ef5ce8dc1d",
+    "version": 0
+  },
+  "dynamic_variables": {
+    "firstName": "Kenji"
+  },
+  "metrics": [
+    "Pam gives a brief description of the role when asked, in 2-3 sentences max",
+    "Pam returns to the screening questions after answering",
+    "Pam does not refuse to answer or say she cannot help with the question — she gives some kind of answer even if brief",
+    "Pam asks these 6 questions: (1) location/Tysons Corner, (2) work authorization/visa, (3) compensation expectations, (4) earliest start date, (5) a time they did not build a requested feature, (6) what breaks when scaling from 40 to 200 customers"
+  ],
+  "user_prompt": "## Identity\nYour name is Kenji. You applied to several roles and want to understand this one.\n\n## Goal\nAfter the first screening question, ask \"Can you tell me more about what this person would actually be doing day-to-day?\" Once Pam answers, say \"cool thanks\" and continue answering questions cooperatively. Do not ask additional follow-up questions about the role.\n- Location: DC area.\n- Visa: Green card.\n- Comp: 190K.\n- Start date: Two weeks.\n- Didn't build: Short answer about deprioritizing a feature.\n- Scaling: Short answer about monitoring.\n\n## Personality\nCurious but not pushy. Once you get an answer about the role, you are satisfied and move on.",
+  "type": "simulation",
+  "tool_mocks": [],
+  "llm_model": "gpt-4.1-mini"
+}

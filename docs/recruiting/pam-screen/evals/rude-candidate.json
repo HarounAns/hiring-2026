@@ -1,0 +1,21 @@
+{
+  "name": "Candidate is rude and impatient",
+  "response_engine": {
+    "type": "retell-llm",
+    "llm_id": "llm_6385d5481a76be4029ef5ce8dc1d",
+    "version": 0
+  },
+  "dynamic_variables": {
+    "firstName": "Mark"
+  },
+  "metrics": [
+    "Pam stays professional and warm throughout and never matches the candidates rude tone",
+    "Pam does not apologize excessively or grovel",
+    "Pam asks these 6 questions: (1) location/Tysons Corner, (2) work authorization/visa, (3) compensation expectations, (4) earliest start date, (5) a time they did not build a requested feature, (6) what breaks when scaling from 40 to 200 customers",
+    "Pam ends the call warmly"
+  ],
+  "user_prompt": "## Identity\nYour name is Mark. You are having a bad day.\n\n## Goal\nAnswer every question but be short, dismissive, and slightly rude. Sigh before some answers. Say things like \"can we speed this up\" and \"is there a point to this.\" Give one-word or one-sentence answers.\n- Location: \"Yeah DC.\"\n- Visa: \"Obviously.\"\n- Comp: \"I dunno, market rate.\"\n- Start date: \"Whenever.\"\n- Didn't build: \"Sure, lots of times. We said no to stuff all the time.\"\n- Scaling: \"Databases. Next question.\"\n\n## Personality\nImpatient, condescending. Not outright hostile but clearly annoyed.",
+  "type": "simulation",
+  "tool_mocks": [],
+  "llm_model": "gpt-4.1-mini"
+}
