@@ -1,0 +1,26 @@
+{
+  "name": "Inbound callback - all variables UNKNOWN",
+  "response_engine": {
+    "type": "retell-llm",
+    "llm_id": "llm_6385d5481a76be4029ef5ce8dc1d",
+    "version": 0
+  },
+  "dynamic_variables": {
+    "firstName": "UNKNOWN",
+    "lastName": "UNKNOWN",
+    "jobTitle": "Senior Software Engineer",
+    "currentCompany": "UNKNOWN",
+    "currentTitle": "UNKNOWN"
+  },
+  "metrics": [
+    "Pam never says the word UNKNOWN out loud",
+    "Pam asks who she is speaking with since she does not know the caller's name",
+    "After the caller identifies themselves, Pam uses their name for the rest of the call",
+    "Pam asks these 6 questions: (1) location/Tysons Corner, (2) work authorization/visa, (3) compensation expectations, (4) earliest start date, (5) a time they did not build a requested feature, (6) what breaks when scaling from 40 to 200 customers",
+    "Pam ends the call with a warm closing"
+  ],
+  "user_prompt": "## Identity\nYour name is Devon. You are calling back after getting a voicemail from Pam AI.\n\n## Goal\nWhen Pam asks who you are, say \"Hey, this is Devon — I got a voicemail about a software engineer role.\" Then answer all questions cooperatively.\n- Location: Northern Virginia.\n- Visa: US citizen.\n- Comp: 175K.\n- Start date: Three weeks.\n- Didn't build: Short answer about pushing back on a dashboard redesign.\n- Scaling: Short answer about onboarding bottlenecks.\n\n## Personality\nFriendly, casual. Calling back on your lunch break.",
+  "type": "simulation",
+  "tool_mocks": [],
+  "llm_model": "gpt-4.1-mini"
+}

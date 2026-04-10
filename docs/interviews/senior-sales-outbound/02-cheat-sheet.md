@@ -54,6 +54,66 @@ Share the Google Doc. Say:
 
 **Bonus signal:** If they intuit a campaign/routing/orchestration layer without being told it exists.
 
+### Quick Glance — The Entities
+
+```
+CRM SIDE                          AGENT SIDE
+─────────                         ──────────
+Dealer                            AgentConfig (per dealer × source)
+ ├─ LeadSource (AutoTrader, OEM…) RoutingRule (source → config)
+ ├─ Vehicle (inventory)           Conversation
+ └─ Lead ──→ lifecycle states      ├─ Message[]
+      ├─ Contact (buyer)           └─ CrmNote[] (write-back)
+      ├─ Contact[] (co-buyers)
+      ├─ VehicleOfInterest ──→ matched to Vehicle?
+      └─ Appointment ──→ CrmNote[] (write-back)
+```
+
+### Ideal ERD (Your Reference — Don't Show Candidate)
+
+```mermaid
+erDiagram
+    DEALER ||--o{ LEAD_SOURCE : "has"
+    DEALER ||--o{ AGENT_CONFIG : "has"
+    DEALER ||--o{ VEHICLE : "inventory"
+
+    LEAD_SOURCE ||--o{ LEAD : "produces"
+    LEAD_SOURCE ||--|| ROUTING_RULE : "mapped by"
+    ROUTING_RULE }o--|| AGENT_CONFIG : "routes to"
+
+    LEAD }o--|| CONTACT : "primary buyer"
+    LEAD }o--o{ CONTACT : "co-buyers"
+    LEAD ||--o{ VEHICLE_OF_INTEREST : "interested in"
+    LEAD ||--o{ APPOINTMENT : "books"
+    LEAD ||--|| CONVERSATION : "drives"
+
+    VEHICLE_OF_INTEREST }o--o| VEHICLE : "matched to inventory"
+
+    CONVERSATION ||--o{ MESSAGE : "contains"
+    CONVERSATION }o--|| AGENT_CONFIG : "governed by"
+
+    APPOINTMENT ||--o{ CRM_NOTE : "written back as"
+    MESSAGE ||--o{ CRM_NOTE : "written back as"
+
+    LEAD {
+        enum lifecycle_state "new | contacted | engaged | booked | dead"
+    }
+
+    AGENT_CONFIG {
+        string dealer_id
+        string lead_source_type
+        string prompt_template
+        json behavior_overrides
+    }
+```
+
+**What this tests:**
+- `Contact` ≠ `Lead` — co-buyers share a Lead but are separate Contacts
+- `VehicleOfInterest` ≠ `Vehicle` inventory — one is intent, one is stock
+- `LeadSource` → `RoutingRule` → `AgentConfig` is the orchestration layer most miss
+- `CrmNote` as a write-back entity (not just a field) shows they thought about the sync
+- `Lifecycle` on `Lead` (not just `status: open/closed`) shows systems thinking
+
 ---
 
 ## Phase 2: Operationalize It (20 min)

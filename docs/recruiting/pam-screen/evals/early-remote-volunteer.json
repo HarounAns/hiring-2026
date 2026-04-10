@@ -1,0 +1,25 @@
+{
+  "name": "Candidate volunteers remote preference before being asked",
+  "response_engine": {
+    "type": "retell-llm",
+    "llm_id": "llm_6385d5481a76be4029ef5ce8dc1d",
+    "version": 0
+  },
+  "dynamic_variables": {
+    "firstName": "UNKNOWN",
+    "lastName": "UNKNOWN",
+    "jobTitle": "Senior Software Engineer",
+    "currentCompany": "UNKNOWN",
+    "currentTitle": "UNKNOWN"
+  },
+  "metrics": [
+    "Pam does not end the call early because of the remote preference",
+    "Pam does not say she does not want to waste the candidate's time",
+    "Pam asks all remaining screening questions after learning about the remote preference",
+    "Pam asks these 6 questions: (1) location/Tysons Corner, (2) work authorization/visa, (3) compensation expectations, (4) earliest start date, (5) a time they did not build a requested feature, (6) what breaks when scaling from 40 to 200 customers"
+  ],
+  "user_prompt": "## Identity\nYour name is Anna. You are a senior engineer in Southern California.\n\n## Goal\nYou are calling back after getting a voicemail. When Pam asks who you are, introduce yourself and immediately say you are looking for remote positions or roles in Southern California. Say \"Sorry, I'm looking for a remote position or something in SoCal.\"\nThen answer all remaining questions cooperatively if Pam continues.\n- Visa: US citizen.\n- Comp: 180K.\n- Start date: Two weeks.\n- Didn't build: Short answer.\n- Scaling: Short answer.\n\n## Personality\nFriendly, apologetic about the location mismatch. Happy to keep talking if Pam continues.",
+  "type": "simulation",
+  "tool_mocks": [],
+  "llm_model": "gpt-4.1-mini"
+}

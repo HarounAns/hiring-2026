@@ -1,7 +1,7 @@
 ---
 name: Yousaf Zayd
 role: senior-sales-outbound
-stage: short_circuit
+stage: rejected
 source: inbound
 email: yousafzayd01@gmail.com
 phone: "(571) 368-6013"
@@ -17,9 +17,9 @@ stage_history:
   - stage: culture_screen
     date: 2026-03-24
     notes: Confirmed application, recruiter notified
-  - stage: short_circuit
-    date: 2026-03-24
-    notes: Passed culture fit screen — advancing to short circuit
+  - stage: rejected
+    date: 2026-04-09
+    notes: "Dropped — culture screen never actually happened. Entire career is Python (Django/Flask/FastAPI), role requires TypeScript. No 0→1 signal, weak prompt engineering depth. Stronger candidates (DiAndre, Adnan) advanced instead."
 ---
 
 # Candidate: Yousaf Zayd
